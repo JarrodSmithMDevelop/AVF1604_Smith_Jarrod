@@ -6,7 +6,7 @@ var responseText = function(){
 
 if (Ti.Network.online) {
      var getData = Ti.Network.createHTTPClient({
-     onload : function(e){
+     onload: function(e){
           console.log(e);  //this is the raw data-string returned from the URL request
           var json = JSON.parse(this.responseText);  //convert the string to JS object notation
           var weatherObj = {
