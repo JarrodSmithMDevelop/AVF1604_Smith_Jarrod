@@ -6885,3 +6885,443 @@ Caused by: java.io.IOException: error=7, Argument list too long
 !MESSAGE Errors occurred while refreshing git index
 !SUBENTRY 1 com.aptana.core 4 128 2016-04-10 15:36:31.285
 !MESSAGE fatal: bad revision 'HEAD'
+
+!ENTRY com.appcelerator.titanium.android.core 4 0 2016-04-10 20:12:01.462
+!MESSAGE (Build 4.5.0.201602170821) [ERROR]  A new update (5.2.0-265) is available... Download with appc use 5.2.0-265
+{
+	"android": {
+		"linux64bit": null,
+		"sdk": {
+			"path": "/Users/JarrodSmith/Library/android-sdk-macosx",
+			"executables": {
+				"dx": "/Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.1/dx",
+				"aidl": "/Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.1/aidl",
+				"aapt": "/Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.1/aapt",
+				"zipalign": "/Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.1/zipalign",
+				"mksdcard": "/Users/JarrodSmith/Library/android-sdk-macosx/tools/mksdcard",
+				"emulator": "/Users/JarrodSmith/Library/android-sdk-macosx/tools/emulator",
+				"android": "/Users/JarrodSmith/Library/android-sdk-macosx/tools/android",
+				"adb": "/Users/JarrodSmith/Library/android-sdk-macosx/platform-tools/adb"
+			},
+			"dx": "/Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.1/lib/dx.jar",
+			"proguard": "/Users/JarrodSmith/Library/android-sdk-macosx/tools/proguard/lib/proguard.jar",
+			"tools": {
+				"path": "/Users/JarrodSmith/Library/android-sdk-macosx/tools",
+				"supported": "maybe",
+				"version": "24.4.1"
+			},
+			"platformTools": {
+				"path": "/Users/JarrodSmith/Library/android-sdk-macosx/platform-tools",
+				"supported": true,
+				"version": "23.1.0"
+			},
+			"buildTools": {
+				"path": "/Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.1",
+				"supported": true,
+				"version": "23.0.1",
+				"tooNew": true,
+				"maxSupported": "<23.x"
+			}
+		},
+		"ndk": null,
+		"home": "/Users/JarrodSmith/.android",
+		"detectVersion": "2.0",
+		"vendorDependencies": {
+			"android sdk": "23",
+			"android build tools": ">=17 <23.x",
+			"android platform tools": ">=17 <=23.x",
+			"android tools": "<=24.3.x",
+			"android ndk": ">=r8e <=r9",
+			"node": ">=0.10.0 <=0.12.x",
+			"java": "<=1.8.x"
+		},
+		"targets": {
+			"1": {
+				"id": "android-21",
+				"abis": [
+					"armeabi-v7a",
+					"x86",
+					"x86_64"
+				],
+				"skins": [
+					"HVGA",
+					"QVGA",
+					"WQVGA400",
+					"WQVGA432",
+					"WSVGA",
+					"WVGA800",
+					"WVGA854",
+					"WXGA720",
+					"WXGA800",
+					"WXGA800-7in",
+					"AndroidWearRound",
+					"AndroidWearSquare"
+				],
+				"name": "Android 5.0.1",
+				"type": "platform",
+				"api-level": 21,
+				"revision": 2,
+				"path": "/Users/JarrodSmith/Library/android-sdk-macosx/platforms/android-21",
+				"sdk": 21,
+				"version": "5.0.1",
+				"androidJar": "/Users/JarrodSmith/Library/android-sdk-macosx/platforms/android-21/android.jar",
+				"supported": false,
+				"aidl": "/Users/JarrodSmith/Library/android-sdk-macosx/platforms/android-21/framework.aidl"
+			},
+			"2": {
+				"id": "Google Inc.:Google APIs:21",
+				"abis": [
+					"armeabi-v7a",
+					"x86",
+					"x86_64"
+				],
+				"skins": [
+					"HVGA",
+					"QVGA",
+					"WQVGA400",
+					"WQVGA432",
+					"WSVGA",
+					"WVGA800",
+					"WVGA854",
+					"WXGA720",
+					"WXGA800",
+					"WXGA800-7in",
+					"AndroidWearRound",
+					"AndroidWearSquare"
+				],
+				"name": "Google APIs",
+				"type": "add-on",
+				"vendor": "Google Inc.",
+				"revision": 1,
+				"description": "Android + Google APIs",
+				"based-on": {
+					"android-version": "5.0.1",
+					"api-level": 21
+				},
+				"libraries": {
+					"com.google.android.media.effects": {
+						"jar": "effects.jar",
+						"description": "Collection of video effects"
+					},
+					"com.android.future.usb.accessory": {
+						"jar": "usb.jar",
+						"description": "API for USB Accessories"
+					},
+					"com.google.android.maps": {
+						"jar": "maps.jar",
+						"description": "API for Google Maps"
+					}
+				},
+				"path": "/Users/JarrodSmith/Library/android-sdk-macosx/add-ons/addon-google_apis-google-21",
+				"version": "5.0.1",
+				"androidJar": "/Users/JarrodSmith/Library/android-sdk-macosx/platforms/android-21/android.jar",
+				"supported": false,
+				"aidl": "/Users/JarrodSmith/Library/android-sdk-macosx/platforms/android-21/framework.aidl"
+			}
+		},
+		"issues": [
+			{
+				"id": "ANDROID_NDK_NOT_FOUND",
+				"type": "warning",
+				"message": "Unable to locate an Android NDK.\nWithout the NDK, you will not be able to build native Android Titanium modules.\nIf you have already downloaded and installed the Android NDK, you can tell Titanium where the Android NDK is located by running '__titanium config android.ndkPath /path/to/android-ndk__', otherwise you can install it by running '__titanium setup android__' or manually downloading from __http://appcelerator.com/android-ndk__."
+			},
+			{
+				"id": "ANDROID_API_TOO_OLD",
+				"type": "warning",
+				"message": "Android API __Android 5.0.1 (android-21)__ is too old and is no longer supported by Titanium SDK 5.2.0.\nThe minimum supported Android API level by Titanium SDK 5.2.0 is API level 23."
+			},
+			{
+				"id": "ANDROID_API_TOO_OLD",
+				"type": "warning",
+				"message": "Android API __Google APIs (Google Inc.:Google APIs:21)__ is too old and is no longer supported by Titanium SDK 5.2.0.\nThe minimum supported Android API level by Titanium SDK 5.2.0 is API level 23."
+			},
+			{
+				"id": "ANDROID_NO_VALID_APIS",
+				"type": "warning",
+				"message": "No valid Android APIs found that are supported by Titanium SDK 5.2.0.\nRun '__/Users/JarrodSmith/Library/android-sdk-macosx/tools/android__' to install the latest Android APIs."
+			}
+		],
+		"tisdk": "5.2.0.GA",
+		"devices": [],
+		"emulators": []
+	}
+}
+!STACK 0
+Unexpected character (A) at position 0.
+	at org.json.simple.parser.Yylex.yylex(Yylex.java:611)
+	at org.json.simple.parser.JSONParser.nextToken(JSONParser.java:270)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:119)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:82)
+	at org.json.simple.parser.JSONParser.parse(JSONParser.java:76)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator.loadTiInfo(AndroidSDKLocator.java:841)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator.updateTiInfo(AndroidSDKLocator.java:224)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator.access$0(AndroidSDKLocator.java:222)
+	at com.appcelerator.titanium.android.core.AndroidSDKLocator$1.run(AndroidSDKLocator.java:242)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.aptana.js.core 4 0 2016-04-10 20:23:26.408
+!MESSAGE (Build 4.5.0.201602170821) [ERROR]  Source type cannot be null or empty
+!STACK 0
+java.lang.IllegalArgumentException: Source type cannot be null or empty
+	at com.appcelerator.titanium.alloy.core.js.inferencing.AlloyJSAliasResolver.resolve(AlloyJSAliasResolver.java:26)
+	at com.aptana.js.internal.core.inferencing.AliasResolverFactory.resolve(AliasResolverFactory.java:100)
+	at com.aptana.js.core.inferencing.JSNodeTypeInferrer.visit(JSNodeTypeInferrer.java:704)
+	at com.aptana.js.core.parsing.ast.JSIdentifierNode.accept(JSIdentifierNode.java:33)
+	at com.aptana.js.core.parsing.ast.JSTreeWalker.visit(JSTreeWalker.java:176)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.processValues(JSSymbolTypeInferrer.java:606)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:359)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:420)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:289)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:1)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:432)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:466)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getScopeProperties(JSSymbolTypeInferrer.java:285)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:232)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:105)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.aptana.js.core 4 0 2016-04-10 20:28:08.207
+!MESSAGE (Build 4.5.0.201602170821) [ERROR]  Source type cannot be null or empty
+!STACK 0
+java.lang.IllegalArgumentException: Source type cannot be null or empty
+	at com.appcelerator.titanium.alloy.core.js.inferencing.AlloyJSAliasResolver.resolve(AlloyJSAliasResolver.java:26)
+	at com.aptana.js.internal.core.inferencing.AliasResolverFactory.resolve(AliasResolverFactory.java:100)
+	at com.aptana.js.core.inferencing.JSNodeTypeInferrer.visit(JSNodeTypeInferrer.java:704)
+	at com.aptana.js.core.parsing.ast.JSIdentifierNode.accept(JSIdentifierNode.java:33)
+	at com.aptana.js.core.parsing.ast.JSTreeWalker.visit(JSTreeWalker.java:176)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.processValues(JSSymbolTypeInferrer.java:606)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:359)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:420)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:289)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:1)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:432)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:466)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getScopeProperties(JSSymbolTypeInferrer.java:285)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:232)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:105)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.aptana.git.core 4 1 2016-04-10 20:45:07.289
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.core 4 0 2016-04-10 20:45:07.289
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:954)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2016-04-10 20:45:07.290
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:995)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2016-04-10 20:45:07.290
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1030)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+
+!ENTRY com.aptana.js.core 4 0 2016-04-10 20:52:57.027
+!MESSAGE (Build 4.5.0.201602170821) [ERROR]  Source type cannot be null or empty
+!STACK 0
+java.lang.IllegalArgumentException: Source type cannot be null or empty
+	at com.appcelerator.titanium.alloy.core.js.inferencing.AlloyJSAliasResolver.resolve(AlloyJSAliasResolver.java:26)
+	at com.aptana.js.internal.core.inferencing.AliasResolverFactory.resolve(AliasResolverFactory.java:100)
+	at com.aptana.js.core.inferencing.JSNodeTypeInferrer.visit(JSNodeTypeInferrer.java:704)
+	at com.aptana.js.core.parsing.ast.JSIdentifierNode.accept(JSIdentifierNode.java:33)
+	at com.aptana.js.core.inferencing.JSNodeTypeInferrer.visit(JSNodeTypeInferrer.java:643)
+	at com.aptana.js.core.parsing.ast.JSGroupNode.accept(JSGroupNode.java:37)
+	at com.aptana.js.core.parsing.ast.JSTreeWalker.visit(JSTreeWalker.java:176)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.processValues(JSSymbolTypeInferrer.java:606)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:359)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.processProperties(JSSymbolTypeInferrer.java:535)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:366)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.processProperties(JSSymbolTypeInferrer.java:535)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:366)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:420)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:289)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:1)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:432)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:466)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getScopeProperties(JSSymbolTypeInferrer.java:285)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:232)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:105)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.appcelerator.titanium.ios.core 4 0 2016-04-10 21:02:45.166
+!MESSAGE (Build 4.5.0.201602170821) [ERROR]  Receive timed out
+!STACK 0
+java.net.SocketTimeoutException: Receive timed out
+	at java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:146)
+	at java.net.DatagramSocket.receive(DatagramSocket.java:817)
+	at com.appcelerator.titanium.ios.core.launching.TitaniumDebuggerDiscovery.sendConnect(TitaniumDebuggerDiscovery.java:182)
+	at com.appcelerator.titanium.ios.ui.launching.device.IOSDebugOnDeviceLaunchConfigurationDelegate.discoverDevice(IOSDebugOnDeviceLaunchConfigurationDelegate.java:406)
+	at com.appcelerator.titanium.ios.ui.launching.device.IOSDebugOnDeviceLaunchConfigurationDelegate.access$2(IOSDebugOnDeviceLaunchConfigurationDelegate.java:375)
+	at com.appcelerator.titanium.ios.ui.launching.device.IOSDebugOnDeviceLaunchConfigurationDelegate$2.run(IOSDebugOnDeviceLaunchConfigurationDelegate.java:216)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.appcelerator.titanium.ios.core 4 0 2016-04-10 21:05:14.520
+!MESSAGE (Build 4.5.0.201602170821) [ERROR]  Receive timed out
+!STACK 0
+java.net.SocketTimeoutException: Receive timed out
+	at java.net.PlainDatagramSocketImpl.receive0(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:146)
+	at java.net.DatagramSocket.receive(DatagramSocket.java:817)
+	at com.appcelerator.titanium.ios.core.launching.TitaniumDebuggerDiscovery.sendConnect(TitaniumDebuggerDiscovery.java:182)
+	at com.appcelerator.titanium.ios.ui.launching.device.IOSDebugOnDeviceLaunchConfigurationDelegate.discoverDevice(IOSDebugOnDeviceLaunchConfigurationDelegate.java:406)
+	at com.appcelerator.titanium.ios.ui.launching.device.IOSDebugOnDeviceLaunchConfigurationDelegate.access$2(IOSDebugOnDeviceLaunchConfigurationDelegate.java:375)
+	at com.appcelerator.titanium.ios.ui.launching.device.IOSDebugOnDeviceLaunchConfigurationDelegate$2.run(IOSDebugOnDeviceLaunchConfigurationDelegate.java:216)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.appcelerator.titanium.ios.core 4 0 2016-04-10 21:05:48.151
+!MESSAGE Error connecting to ios Device
+!STACK 1
+org.eclipse.core.runtime.CoreException: 
+	at com.appcelerator.titanium.ios.ui.launching.device.IOSDebugOnDeviceLaunchConfigurationDelegate.discoverDevice(IOSDebugOnDeviceLaunchConfigurationDelegate.java:404)
+	at com.appcelerator.titanium.ios.ui.launching.device.IOSDebugOnDeviceLaunchConfigurationDelegate.access$2(IOSDebugOnDeviceLaunchConfigurationDelegate.java:375)
+	at com.appcelerator.titanium.ios.ui.launching.device.IOSDebugOnDeviceLaunchConfigurationDelegate$2.run(IOSDebugOnDeviceLaunchConfigurationDelegate.java:216)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 unknown 8 1 2016-04-10 21:05:48.152
+!MESSAGE 
+
+!ENTRY com.aptana.js.core 4 0 2016-04-10 21:16:06.427
+!MESSAGE (Build 4.5.0.201602170821) [ERROR]  Source type cannot be null or empty
+!STACK 0
+java.lang.IllegalArgumentException: Source type cannot be null or empty
+	at com.appcelerator.titanium.alloy.core.js.inferencing.AlloyJSAliasResolver.resolve(AlloyJSAliasResolver.java:26)
+	at com.aptana.js.internal.core.inferencing.AliasResolverFactory.resolve(AliasResolverFactory.java:100)
+	at com.aptana.js.core.inferencing.JSNodeTypeInferrer.visit(JSNodeTypeInferrer.java:704)
+	at com.aptana.js.core.parsing.ast.JSIdentifierNode.accept(JSIdentifierNode.java:33)
+	at com.aptana.js.core.parsing.ast.JSTreeWalker.visit(JSTreeWalker.java:176)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.processValues(JSSymbolTypeInferrer.java:606)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:359)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:420)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:289)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:1)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:432)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:466)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getScopeProperties(JSSymbolTypeInferrer.java:285)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:232)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:105)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY com.aptana.js.core 4 0 2016-04-10 21:23:49.156
+!MESSAGE (Build 4.5.0.201602170821) [ERROR]  Source type cannot be null or empty
+!STACK 0
+java.lang.IllegalArgumentException: Source type cannot be null or empty
+	at com.appcelerator.titanium.alloy.core.js.inferencing.AlloyJSAliasResolver.resolve(AlloyJSAliasResolver.java:26)
+	at com.aptana.js.internal.core.inferencing.AliasResolverFactory.resolve(AliasResolverFactory.java:100)
+	at com.aptana.js.core.inferencing.JSNodeTypeInferrer.visit(JSNodeTypeInferrer.java:704)
+	at com.aptana.js.core.parsing.ast.JSIdentifierNode.accept(JSIdentifierNode.java:33)
+	at com.aptana.js.core.parsing.ast.JSTreeWalker.visit(JSTreeWalker.java:176)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.processValues(JSSymbolTypeInferrer.java:606)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:359)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getSymbolPropertyElement(JSSymbolTypeInferrer.java:420)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:289)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer$1.map(JSSymbolTypeInferrer.java:1)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:432)
+	at com.aptana.core.util.CollectionsUtil.map(CollectionsUtil.java:466)
+	at com.aptana.js.internal.core.inferencing.JSSymbolTypeInferrer.getScopeProperties(JSSymbolTypeInferrer.java:285)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.processParseResults(JSFileIndexingParticipant.java:232)
+	at com.aptana.js.core.index.JSFileIndexingParticipant.index(JSFileIndexingParticipant.java:105)
+	at com.aptana.core.internal.build.IndexBuildParticipant.buildFile(IndexBuildParticipant.java:132)
+	at com.aptana.core.internal.build.LazyBuildParticipant.buildFile(LazyBuildParticipant.java:72)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.runParticipants(CommonReconcilingStrategy.java:337)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:277)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.reconcile(CommonReconcilingStrategy.java:235)
+	at com.aptana.editor.common.text.reconciler.CommonReconcilingStrategy.fullReconcile(CommonReconcilingStrategy.java:477)
+	at com.aptana.editor.common.text.reconciler.CommonReconciler.process(CommonReconciler.java:162)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)

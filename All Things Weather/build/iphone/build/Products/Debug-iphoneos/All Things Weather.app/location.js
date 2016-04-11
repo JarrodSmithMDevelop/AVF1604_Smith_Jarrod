@@ -1,20 +1,19 @@
 
-/*if (Ti.Network.online) {
-     var getData = Ti.Network.createHTTPClient();
-     getData.onload = function(e){
-          console.log(e);  //this is the raw data-string returned from the URL request
-          var json = JSON.parse(this.responseText);  //convert the string to JS object notation
-          var weatherObj = {
-              day : json.simpleforecast.forecastday[5].date.weekday,
-              temp : json.current_observation.temp_f
-          };
-          var ui = require("ui");
-          ui.buildUi(weatherObj);
-     }; //getData.onload closing
-     getData.open("GET", url);
-     getData.send();
-} else {
-     alert("Network currently unavailable.");
-     // load locally stored data perhaps?
-}; // if else Ti.Network closing
-*/
+var getGeo = function(){
+	if  (Ti.Geoloation.locationServicesEnabled){
+		Ti.Geolocation.purpose = ("Application needs your location cordinates");
+		Ti.Geolocation.getCurrentPosition(function(e){
+			console.log(e);
+			
+		var lat = e.coords.latitude;
+		var lng = e.coords.longitude;
+        var infoDisplay = require("infoDisplay");
+		infoDisplay.buildUi(lat, lng); 
+	});
+	
+	 }else {
+		alert("Please enable location settings on device!");
+	}
+};
+
+exports.runGetGeo = getGeo;

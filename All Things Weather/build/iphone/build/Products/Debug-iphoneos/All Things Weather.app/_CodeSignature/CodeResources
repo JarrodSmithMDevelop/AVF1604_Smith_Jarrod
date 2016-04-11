@@ -58,7 +58,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		N/MQmA9LUObbz4ahVqzAyaPmfE8=
+		F8zc3xan/CoQ6ew+Gtrfs8+eHDM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		yuIlhQD73wPNnHEv2h8mtP7w0cw=
+		wvu3VDtKue+DHT5E7+tUuXOEaIg=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Se8ZIbUwxBQEMq2+eZgjdRIlIKE=
+		PWryWcE9mCwTNK+/qHJ2+hmF+Es=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -130,7 +130,11 @@
 		</data>
 		<key>app.js</key>
 		<data>
-		zVeXM4Y+/0waW+bCHcKCmBafMfQ=
+		mgbgxuZjgtUYH6dcvPR0GDIR+5k=
+		</data>
+		<key>debugger.plist</key>
+		<data>
+		W11PikcHXJY8Sdp2indyqTzIGRA=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -138,11 +142,11 @@
 		</data>
 		<key>infoDisplay.js</key>
 		<data>
-		0q3Xt/ZEP3Vk1a0RGMihGULsNdE=
+		V6HR38iv+8a3p6Q2wUhWcs8+9d4=
 		</data>
 		<key>location.js</key>
 		<data>
-		SZ8BYi1/vr+Bzj8+JzkIW+gntB4=
+		tmXXaPboLbC2VtWOYxhZTZoUs7U=
 		</data>
 		<key>modules/ui/images/badge.png</key>
 		<data>
@@ -158,7 +162,7 @@
 		</data>
 		<key>network.js</key>
 		<data>
-		MWXP/dBJloOk7n5Zvp4CfQNmnfo=
+		XzbdW+tkGx3Yx/3L6wF3c4+C0Rw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -310,11 +314,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N/MQmA9LUObbz4ahVqzAyaPmfE8=
+			F8zc3xan/CoQ6ew+Gtrfs8+eHDM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ad2WkCyTSCWLFZd8wfa5pckUoWSokmo01ANzap1cjy4=
+			oUyFvy+ZIzSCJWT0QhdO0veOSNlymqNzBapfuHGDkeo=
 			</data>
 		</dict>
 		<key>KS_nav_ui.png</key>
@@ -442,11 +446,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yuIlhQD73wPNnHEv2h8mtP7w0cw=
+			wvu3VDtKue+DHT5E7+tUuXOEaIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			bAs6SZycNNBwI45SKx5Ft6oI8jJNwlHg0yf77EJ3X/I=
+			Ql7Z/zf0ACgA94lqAoJvnbA1kdqNNGUphFvBoYbjCqk=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -464,11 +468,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Se8ZIbUwxBQEMq2+eZgjdRIlIKE=
+			PWryWcE9mCwTNK+/qHJ2+hmF+Es=
 			</data>
 			<key>hash2</key>
 			<data>
-			4XqTEyWp+gjlDuwED+7NysPGFESC24KpqYWvweEOnEI=
+			KDeWlNQMsT5bulK5hIoTjx6jfrQrJmm+nlPzv7Gr3EY=
 			</data>
 		</dict>
 		<key>_app_props_.json</key>
@@ -486,11 +490,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zVeXM4Y+/0waW+bCHcKCmBafMfQ=
+			mgbgxuZjgtUYH6dcvPR0GDIR+5k=
 			</data>
 			<key>hash2</key>
 			<data>
-			jkhEvU094cGzsP0N7/mWd174kdQTt3DrY41UK7OWKm4=
+			LidwOTYVb5S42mtml46Uy/9jBPvbIrGg1KDWn5bhn7E=
+			</data>
+		</dict>
+		<key>debugger.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W11PikcHXJY8Sdp2indyqTzIGRA=
+			</data>
+			<key>hash2</key>
+			<data>
+			9nfUFbGX4ZTVRW9XPNXsClxZwP2ELfu89hHZN1ATqkw=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -508,22 +523,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0q3Xt/ZEP3Vk1a0RGMihGULsNdE=
+			V6HR38iv+8a3p6Q2wUhWcs8+9d4=
 			</data>
 			<key>hash2</key>
 			<data>
-			9sY5usI9WsMlIcETd04t8si0+qZASjFkeX67JF0ewIw=
+			J4fPKC8TxqHkcbEDNPnyDnj95i3hFQMvTzCKdyKEULo=
 			</data>
 		</dict>
 		<key>location.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SZ8BYi1/vr+Bzj8+JzkIW+gntB4=
+			tmXXaPboLbC2VtWOYxhZTZoUs7U=
 			</data>
 			<key>hash2</key>
 			<data>
-			nMrJxaIteDFLAL8Y44Zc4bUjZovl66fbcXDU9s8V3ss=
+			Llncammt/rALfLhSXAj50bRDUhr9Al+NQuQ2ytWbsTw=
 			</data>
 		</dict>
 		<key>modules/ui/images/badge.png</key>
@@ -563,11 +578,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MWXP/dBJloOk7n5Zvp4CfQNmnfo=
+			XzbdW+tkGx3Yx/3L6wF3c4+C0Rw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZEXLipFT7MZ/NVO7OrvMOyYBmHmGlvP2NPTDgaoOm+g=
+			Et/Tt7ljdgyvNkcE7YReqOFj5TAZInWb7mxP2Bt3tP0=
 			</data>
 		</dict>
 	</dict>

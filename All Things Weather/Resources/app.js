@@ -10,9 +10,14 @@ var mainWindow = Ti.UI.createWindow({
     backgroundColor:'#777'
 });
 
+if (Ti.Network.online === true){
+	var loadGeo = require("location");
+} else {
+	alert("Please check network connection!");
+	};
 
 var infoDisplay = require("infoDisplay");
-var networkConnect = require("network"); 
-
+var network = require("network"); 
+var location = require("location");
 
 mainWindow.open();
