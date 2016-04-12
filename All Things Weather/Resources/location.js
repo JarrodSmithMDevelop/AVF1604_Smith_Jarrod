@@ -1,14 +1,14 @@
+ 
 
 var getGeo = function(){
-	if  (Ti.Geoloation.locationServicesEnabled){
+	if  (Ti.Geolocation.locationServicesEnabled){
 		Ti.Geolocation.purpose = ("Application needs your location cordinates");
 		Ti.Geolocation.getCurrentPosition(function(e){
 			console.log(e);
-			
 		var lat = e.coords.latitude;
 		var lng = e.coords.longitude;
-        var infoDisplay = require("infoDisplay");
-		infoDisplay.buildUi(lat, lng); 
+        var network = require("network");
+		network.url(lat, lng); 
 	});
 	
 	 }else {

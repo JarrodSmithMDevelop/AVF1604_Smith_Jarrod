@@ -1,0 +1,23 @@
+ 
+
+var getGeo = function(lat,lng){
+	if  (Ti.Geolocation.locationServicesEnabled){
+		<key>NSLocationAlwaysUsageDescription</key> 
+<array>
+     <string>Please allow the app to access your Location to find XYZ near you.</string>
+</array>
+		Ti.Geolocation.purpose = ("Application needs your location cordinates");
+		Ti.Geolocation.getCurrentPosition(function(e){
+			console.log(e);
+		lat = e.coords.latitude;
+		lng = e.coords.longitude;
+        var network = require("network");
+		network.url(lat, lng); 
+	});
+	
+	 }else {
+		alert("Please enable location settings on device!");
+	}
+};
+
+exports.runGetGeo = getGeo;

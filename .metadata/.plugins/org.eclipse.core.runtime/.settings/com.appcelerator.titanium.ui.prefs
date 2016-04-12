@@ -1,6 +1,6 @@
 =run
 All\ Things\ Weather\:launchMode=run
-All\ Things\ Weather\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.run.device.launchShortcut.b148947d764c654d0ef20b873cb383522b05a819
+All\ Things\ Weather\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.621EA089-C4A3-457B-A8CD-14C0299C1F57
 LAST_LAUNCH_TIMESTAMP=1460319500349
 eclipse.preferences.version=1
 preference.show.console.onError=false
