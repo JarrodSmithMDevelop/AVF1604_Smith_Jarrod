@@ -1,15 +1,16 @@
 
+var weatherData = function(lat, lng){
 
-
-var url = "http://api.wunderground.com/api/4f7172086eb9b9c8/conditions/q" + lat + "," + lng + ".json";
-
+var url = "http://api.wunderground.com/api/4f7172086eb9b9c8/conditions/q/" + lat + "," + lng + ".json";
+console.log(url);
 
 
 if (Ti.Network.online) {
      var getData = Ti.Network.createHTTPClient();
-     getData.onload = function(e){
-          console.log(e);  //this is the raw data-string returned from the URL request
+     getData.onload = function(url){
+          console.log(getData);  //this is the raw data-string returned from the URL request
           var json = JSON.parse(this.responseText);  //convert the string to JS object notation
+          console.log(json);
           var weatherObj = {
               city : json.current_observations.display_location.city,
               state : json.current_observations.display_location.state,
@@ -21,9 +22,9 @@ if (Ti.Network.online) {
               amountOfPrecip : json.current_observation.precip_today_in,
               humidity : json.current_observation.relative_humidity
             };
-            exports.weatherObj = getData.weatherObj;
+            console.log(weatherObj);
           var infoDisplay = require("infoDisplay");
-          infoDisplay.buildUI(weatherObj);
+          infoDisplay.buildUi(weatherObj);
       };
  
      getData.open("GET", url);
@@ -33,4 +34,6 @@ if (Ti.Network.online) {
 }else{
      alert("Network currently unavailable.");
    };
-   
+};
+
+exports.weatherObj = weatherData;

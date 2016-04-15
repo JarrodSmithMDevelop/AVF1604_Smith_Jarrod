@@ -1,4 +1,5 @@
-var network = require("network").weatherObj;
+var buildUi = function(weatherObj){
+
 var phoneHeight = Ti.Platform.displayCaps.platformHeight;
 var phoneWidth = Ti.Platform.displayCaps.platformWidth;
 
@@ -148,3 +149,4 @@ var humidityLabel = Ti.UI.createLabel({
 
 
 mainWindow.add( locationBackground, precipBackground, windSpeedLabel, windSpeed, currentWeather, currentWeatherLabel, humidityPercentage, humidityLabel, precipPercentage, precipLabel, locationLabel ,location , currentTempLabel, tempReading);
+};

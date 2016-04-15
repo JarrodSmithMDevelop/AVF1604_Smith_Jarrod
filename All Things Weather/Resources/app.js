@@ -17,9 +17,9 @@ if (Ti.Network.online === true){
 	alert("Please check network connection!");
 	};
 
-var infoDisplay = require("infoDisplay");
-var network = require("network"); 
-var location = require("location");
+//var infoDisplay = require("infoDisplay");
+//var network = require("network"); 
+//var location = require("location");
 
 
 
