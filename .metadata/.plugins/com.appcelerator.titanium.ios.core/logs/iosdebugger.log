@@ -1,35 +1,54 @@
-Logger started at: Sunday, April 10, 2016 10:56:10 AM CDT
+Logger started at: Thursday, April 14, 2016 11:38:11 PM CDT
 Component: com.appcelerator.titanium.ios.core
 Version: 1.0.0.1455692286
-[56:10.527] Sent: >21*1460303770527*version<
-[56:10.527] Recv: >1460303770527*2*5.2.0<
-[56:10.528] Sent: >36*1460303770528*option*monitorXHR*true<
-[56:10.529] Recv: >1460303770528<
-[56:10.529] Sent: >45*1460303770529*option*suspendOnFirstLine*false<
-[56:10.529] Recv: >1460303770529<
-[56:10.529] Sent: >46*1460303770530*option*suspendOnExceptions*false<
-[56:10.530] Recv: >1460303770530<
-[56:10.530] Sent: >41*1460303770531*option*suspendOnErrors*true<
-[56:10.530] Recv: >1460303770531<
-[56:10.530] Sent: >43*1460303770532*option*suspendOnKeywords*true<
-[56:10.531] Recv: >1460303770532<
-[56:10.531] Sent: >45*1460303770533*option*bypassConstructors*false<
-[56:10.531] Recv: >1460303770533<
-[56:10.531] Sent: >45*1460303770534*option*stepFiltersEnabled*false<
-[56:10.531] Recv: >1460303770534<
-[56:10.532] Sent: >30*1460303770535*detailFormatters<
-[56:10.532] Recv: >1460303770535<
-[56:10.532] Sent: >20*1460303770536*enable<
-[56:10.532] Recv: >1460303770536<
-[56:10.538] Recv: >threads*created*0*kroll$1<
-[56:10.539] Recv: >log*out*[DEBUG] Loading: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/621EA089-C4A3-457B-A8CD-14C0299C1F57/data/Containers/Bundle/Application/DC1CAC8E-FFF5-4B74-8F6E-4A09D5FDEE4A/All Things Weather.app/app.js, Resource: app_js<
-[56:10.540] Recv: >scripts*created*1|app:/app.js||1|38<
-[56:10.540] Recv: >resumed*0*started<
-[56:10.542] Recv: >log*out*[DEBUG] Loading: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/621EA089-C4A3-457B-A8CD-14C0299C1F57/data/Containers/Bundle/Application/DC1CAC8E-FFF5-4B74-8F6E-4A09D5FDEE4A/All Things Weather.app/infoDisplay.js, Resource: infoDisplay_js<
-[56:10.544] Recv: >suspended*0*exception*app:/app.js*34<
-[56:10.544] Sent: >22*1460303770537*frames*0<
-[56:10.545] Recv: >1460303770537*0|||app:/app.js|34|false|0|0<
-[56:11.324] Sent: >34*1460303770538*variables*0*frame[0]<
-[56:11.324] Recv: >1460303770538*infoDisplay|undefined|wl|undefined*mainWindow|object|nol|[object TiUIWindow]<
-[56:18.51] Sent: >10**terminate<
+[38:11.610] Sent: >21*1460695091608*version<
+[38:11.611] Recv: >1460695091608*2*5.2.0<
+[38:11.612] Sent: >20*1460695091609*update<
+[38:11.613] Recv: >1460695091609*3.6.0<
+[38:11.613] Sent: >45*1460695091610*option*stepFiltersEnabled*false<
+[38:11.614] Recv: >1460695091610<
+[38:11.614] Sent: >36*1460695091611*option*monitorXHR*true<
+[38:11.614] Recv: >1460695091611<
+[38:11.614] Sent: >45*1460695091612*option*suspendOnFirstLine*false<
+[38:11.615] Recv: >1460695091612<
+[38:11.615] Sent: >46*1460695091613*option*suspendOnExceptions*false<
+[38:11.615] Recv: >1460695091613<
+[38:11.615] Sent: >41*1460695091614*option*suspendOnErrors*true<
+[38:11.616] Recv: >1460695091614<
+[38:11.616] Sent: >43*1460695091615*option*suspendOnKeywords*true<
+[38:11.616] Recv: >1460695091615<
+[38:11.616] Sent: >45*1460695091616*option*bypassConstructors*false<
+[38:11.616] Recv: >1460695091616<
+[38:11.616] Sent: >45*1460695091617*option*stepFiltersEnabled*false<
+[38:11.617] Recv: >1460695091617<
+[38:11.617] Sent: >30*1460695091618*detailFormatters<
+[38:11.617] Recv: >1460695091618<
+[38:11.619] Sent: >20*1460695091619*enable<
+[38:11.619] Recv: >1460695091619<
+[38:11.625] Recv: >threads*created*0*kroll$1<
+[38:11.627] Recv: >log*out*[DEBUG] Loading: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/621EA089-C4A3-457B-A8CD-14C0299C1F57/data/Containers/Bundle/Application/F6D1C1C2-4F48-441B-B1BD-7E9A45CB5BA7/Weather.app/app.js, Resource: app_js<
+[38:11.628] Recv: >scripts*created*1|app:/app.js||1|21<
+[38:11.628] Recv: >resumed*0*started<
+[38:11.629] Recv: >log*out*[INFO] main window<
+[38:11.630] Recv: >log*out*[INFO] Entering getGeo<
+[38:11.630] Recv: >log*out*[DEBUG] Loading: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/621EA089-C4A3-457B-A8CD-14C0299C1F57/data/Containers/Bundle/Application/F6D1C1C2-4F48-441B-B1BD-7E9A45CB5BA7/Weather.app/geo.js, Resource: geo_js<
+[38:11.631] Recv: >scripts*created*2|app:/geo.js||1|27<
+[38:11.632] Recv: >log*out*[INFO] Geolocation is turned on!<
+[38:11.633] Recv: >log*out*[WARN] The Ti.Geolocation.purpose property is deprecated. On iOS6 and above include the NSLocationUsageDescription key in your Info.plist<
+[38:11.633] Recv: >log*out*[INFO] This is the android coords! <null> 120<
+[38:11.633] Recv: >log*out*[INFO] getGeo Ran<
+[38:11.640] Recv: >log*out*[DEBUG] Application booted in 64.112008 ms<
+[38:11.644] Recv: >log*out*[INFO] {
+    code = 0;
+    error = "The operation couldn\U2019t be completed. (kCLErrorDomain error 0.)";
+    source = "[object GeolocationModule]";
+    success = 1;
+    type = location;
+}<
+[38:11.645] Recv: >suspended*0*exception*app:/geo.js*10<
+[38:11.646] Sent: >22*1460695091620*frames*0<
+[38:11.651] Recv: >1460695091620*0||e|app:/geo.js|10|false|0|0<
+[38:12.466] Sent: >34*1460695091621*variables*0*frame[0]<
+[38:12.467] Recv: >1460695091621*arguments|object|opnl|[object Arguments]*e|object|ol|[object Object]*exports|object|ov|[object Object]*getGeo|object|v|[object Function]*lat|undefined|wl|undefined*lng|undefined|wl|undefined*mainWindow|object|nov|[object TiUIWindow]*module|object|ov|[object Object]*runGeo|object|ov|[object Object]<
+[40:28.105] Sent: >10**terminate<
 ----------End of file----------

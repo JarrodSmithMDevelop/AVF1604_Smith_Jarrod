@@ -1,0 +1,21 @@
+var getGeo = function(){
+
+if (Ti.Platform.osname === "iphone"){
+	
+	if (Geolaction.locationServicesEnabled){
+		Ti.Geolocation.getCurrentPosition (function(e){
+			console.log(e);
+				var lat = e.coords.latitude;
+				var lng = e.coords.latitude;	
+					console.log("Iphone lat and long ", lat, lng);
+		});
+	}else{
+		alert("Check network connection!");
+	};
+	
+	
+}else
+
+	var lat = 120;
+	var lng = 30;
+};

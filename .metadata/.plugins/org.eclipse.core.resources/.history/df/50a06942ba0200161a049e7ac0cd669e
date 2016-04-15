@@ -1,0 +1,3 @@
+//Sets loading background color
+
+Ti.UI.setBackgroundColor = "000";

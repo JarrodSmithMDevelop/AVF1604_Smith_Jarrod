@@ -17,6 +17,15 @@
         <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
         <plist>
             <dict>
+            	 <key>NSLocationWhenInUseUsageDescription</key> 
+					<array>
+     					<string>Please allow the app to access your Location to find XYZ near you.</string>
+					</array>
+               
+                <key>NSLocationUsageDescription</key> 
+					<array>
+     					<string>Please allow the app to access your Location to find XYZ near you.</string>
+					</array>
                 <key>UISupportedInterfaceOrientations~iphone</key>
                 <array>
                     <string>UIInterfaceOrientationPortrait</string>

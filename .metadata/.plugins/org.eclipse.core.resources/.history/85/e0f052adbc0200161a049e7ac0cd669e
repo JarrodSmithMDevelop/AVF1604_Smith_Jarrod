@@ -1,0 +1,18 @@
+//Sets loading background color
+
+Ti.UI.setBackgroundColor = "000";
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#777"
+}); 
+
+if(Ti.Network.online === true){
+	var getGeo = function (){
+		var runGeo = require("geo");
+		runGeo.getGeo();
+		console.log("getGeo Ran");
+	};
+	
+}
+
+mainWindow.open();

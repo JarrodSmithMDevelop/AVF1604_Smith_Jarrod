@@ -1,0 +1,11 @@
+//Sets loading background color
+
+Ti.UI.setBackgroundColor = "000";
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#333"
+}); 
+
+
+
+mainWindow.open;
