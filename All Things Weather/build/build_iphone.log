@@ -1,5 +1,5 @@
 
-4/14/2016, 8:36:04 PM
+4/14/2016, 9:43:53 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,13 +21,13 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/JarrodSmith/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.2.0.GA --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather --target simulator --ios-version 9.3 --device-family universal --sim-type iphone --sim-version 9.0 --device-id A5E51A24-02BF-4762-B967-E6B103F89D27 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49616 --config-file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-1460684162540.json --no-banner --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather
+  /usr/local/bin/node /Users/JarrodSmith/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.2.0.GA --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather --target simulator --ios-version 9.3 --device-family universal --sim-type iphone --sim-version 9.1 --device-id 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49616 --config-file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-1460688231761.json --no-banner --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather
 
-[TRACE]  [ioslib] Validating iOS Simulator UDID A5E51A24-02BF-4762-B967-E6B103F89D27
-[TRACE]  [ioslib] Found iOS Simulator UDID A5E51A24-02BF-4762-B967-E6B103F89D27
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
-[TRACE]  [ioslib]   UDID    = A5E51A24-02BF-4762-B967-E6B103F89D27
-[TRACE]  [ioslib]   iOS     = 9.0
+[TRACE]  [ioslib] Validating iOS Simulator UDID 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
+[TRACE]  [ioslib] Found iOS Simulator UDID 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
+[TRACE]  [ioslib]   UDID    = 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
+[TRACE]  [ioslib]   iOS     = 9.1
 [TRACE]  [ioslib] Autoselected Xcode: 7.3
 [DEBUG]  Detecting modules in /Users/JarrodSmith/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: facebook 4.0.5 @ /Users/JarrodSmith/Library/Application Support/Titanium/modules/android/facebook/4.0.5
@@ -55,10 +55,10 @@ Command
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
 [INFO]   Building using iOS SDK: 9.3
-[INFO]   Building for iOS Simulator: iPhone 6
-[DEBUG]  UDID: A5E51A24-02BF-4762-B967-E6B103F89D27
+[INFO]   Building for iOS Simulator: iPhone 5
+[DEBUG]  UDID: 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
 [DEBUG]  Simulator type: iphone
-[DEBUG]  Simulator version: 9.0
+[DEBUG]  Simulator version: 9.1
 [INFO]   Building for device family: universal
 [DEBUG]  Setting Xcode target to Debug
 [DEBUG]  Setting Xcode build OS to iphonesimulator
@@ -71,7 +71,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-22d1e27b70315c2b37b1287d56c439c71768ab9c.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 8897.273 sec ago
+[TRACE]  optimizing build, last build was 12966.471 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -81,8 +81,7 @@ Command
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/All Things Weather.entitlements
 [INFO]   Creating Info.plist
 [INFO]   Disabling ATS
-[INFO]   Forcing rebuild: Info.plist changed since last build
-[DEBUG]  Writing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Info.plist
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Info.plist
 [INFO]   Creating main.m
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/main.m
 [INFO]   Creating Xcode config files
@@ -176,113 +175,21 @@ Command
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Classes/defines.h
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
-[INFO]   Invoking xcodebuild
-[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target "All Things Weather" -configuration Debug -scheme All_Things_Weather -derivedDataPath "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone" "OBJROOT=/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Intermediates" "SHARED_PRECOMPS_DIR=/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Intermediates/PrecompiledHeaders" "SYMROOT=/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products" -destination "platform=iOS Simulator,id=A5E51A24-02BF-4762-B967-E6B103F89D27,OS=9.0"
-[TRACE]  User defaults from command line:
-[TRACE]      IDEDerivedDataPathOverride = /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone
-[TRACE]  Build settings from command line:
-[TRACE]      OBJROOT = /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Intermediates
-[TRACE]      SHARED_PRECOMPS_DIR = /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Intermediates/PrecompiledHeaders
-[TRACE]      SYMROOT = /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products
-[TRACE]  
-[TRACE]  === BUILD TARGET All Things Weather OF PROJECT All Things Weather WITH CONFIGURATION Debug ===
-[TRACE]  Check dependencies
-[TRACE]  
-[TRACE]  CompileAssetCatalog build/Products/Debug-iphonesimulator/All\ Things\ Weather.app Assets.xcassets
-[TRACE]      cd "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone"
-[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
-[TRACE]      /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/assetcatalog_dependencies --output-partial-info-plist /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --compress-pngs --enable-on-demand-resources YES --filter-for-device-model iPhone7,2 --filter-for-device-os-version 9.0 --target-device iphone --target-device ipad --minimum-deployment-target 7.1 --platform iphonesimulator --compile /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/Assets.xcassets
-[TRACE]  /* com.apple.actool.document.notices */
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][landscape][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][667h][2x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
-[TRACE]  /* com.apple.actool.compilation-results */
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon29x29@2x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon29x29@3x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon40x40@2x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon40x40@3x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon60x60@2x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon60x60@3x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon29x29~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon29x29@2x~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon40x40~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon40x40@2x~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon76x76~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon76x76@2x~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/AppIcon83.5x83.5@2x~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/LaunchImage-800-Portrait-736h@3x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/LaunchImage-800-Landscape-736h@3x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/LaunchImage-800-667h@2x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/LaunchImage-700@2x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/LaunchImage-700-568h@2x.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/LaunchImage-700-Portrait~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/LaunchImage-700-Landscape~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/LaunchImage-700-Portrait@2x~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/LaunchImage-700-Landscape@2x~ipad.png
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/Assets.car
-[TRACE]  /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Intermediates/All Things Weather.build/Debug-iphonesimulator/All Things Weather.build/assetcatalog_generated_info.plist
-[TRACE]  
-[TRACE]  ProcessInfoPlistFile build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/Info.plist Info.plist
-[TRACE]      cd "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone"
-[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
-[TRACE]      builtin-infoPlistUtility /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/Info.plist -genpkginfo /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/assetcatalog_generated_info.plist -o /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/Info.plist
-[TRACE]  
-[TRACE]  ProcessProductPackaging All\ Things\ Weather.entitlements build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/All\ Things\ Weather.app.xcent
-[TRACE]      cd "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone"
-[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
-[TRACE]      builtin-productPackagingUtility /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/All\ Things\ Weather.entitlements -entitlements -format xml -o /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/All\ Things\ Weather.app.xcent
-[TRACE]  
-[TRACE]  Ld build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/Objects-normal/i386/All\ Things\ Weather normal i386
-[TRACE]      cd "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone"
-[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
-[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
-[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk -L/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator -L/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/lib -L/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/Classes/APSAnalytics -L/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/Classes/APSHTTPClient -F/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator -filelist /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/Objects-normal/i386/All\ Things\ Weather.LinkFileList -mios-simulator-version-min=7.1 -dead_strip -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -ObjC -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/All\ Things\ Weather.app.xcent -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -Xlinker -dependency_info -Xlinker /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/Objects-normal/i386/All\ Things\ Weather_dependency_info.dat -o /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/Objects-normal/i386/All\ Things\ Weather
-[TRACE]  
-[TRACE]  Ld build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/Objects-normal/x86_64/All\ Things\ Weather normal x86_64
-[TRACE]      cd "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone"
-[TRACE]      export IPHONEOS_DEPLOYMENT_TARGET=7.1
-[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
-[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk -L/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator -L/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/lib -L/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/Classes/APSAnalytics -L/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/Classes/APSHTTPClient -F/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator -filelist /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/Objects-normal/x86_64/All\ Things\ Weather.LinkFileList -mios-simulator-version-min=7.1 -dead_strip -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -ObjC -weak-lti_ios_profiler -weak-lti_ios_debugger -weak-lTiCore -weak_framework Contacts -weak_framework ContactsUI -weak_framework WatchConnectivity -weak_framework CoreSpotlight -fobjc-link-runtime -stdlib=libc++ -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/All\ Things\ Weather.app.xcent -weak_framework iAd -framework CoreMedia -weak_framework CoreMotion -lAPSAnalytics -weak_framework CoreText -framework EventKit -framework EventKitUI -weak_framework Security -licucore -framework Foundation -weak_framework UIKit -framework CoreGraphics -weak_framework AddressBook -framework AddressBookUI -framework CFNetwork -framework CoreLocation -weak_framework MapKit -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework SystemConfiguration -lsqlite3 -lz -framework AudioToolbox -weak_framework MediaPlayer -framework AVFoundation -lxml2 -framework StoreKit -lAPSHTTPClient -framework ExternalAccessory -ltiverify -Xlinker -dependency_info -Xlinker /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/Objects-normal/x86_64/All\ Things\ Weather_dependency_info.dat -o /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/Objects-normal/x86_64/All\ Things\ Weather
-[TRACE]  
-[TRACE]  CreateUniversalBinary build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/All\ Things\ Weather normal i386\ x86_64
-[TRACE]      cd "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone"
-[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
-[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/Objects-normal/i386/All\ Things\ Weather /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Intermediates/All\ Things\ Weather.build/Debug-iphonesimulator/All\ Things\ Weather.build/Objects-normal/x86_64/All\ Things\ Weather -output /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/All\ Things\ Weather
-[TRACE]  
-[TRACE]  GenerateDSYMFile build/Products/Debug-iphonesimulator/All\ Things\ Weather.app.dSYM build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/All\ Things\ Weather
-[TRACE]      cd "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone"
-[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
-[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/All\ Things\ Weather -o /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app.dSYM
-[TRACE]  
-[TRACE]  CopySwiftLibs build/Products/Debug-iphonesimulator/All\ Things\ Weather.app
-[TRACE]      cd "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone"
-[TRACE]      export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
-[TRACE]      export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
-[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
-[TRACE]      export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk
-[TRACE]      export TOOLCHAINS=com.apple.dt.toolchain.iOS9_3
-[TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-stdlib-tool --copy --verbose --scan-executable /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/All\ Things\ Weather --scan-folder /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/Frameworks --scan-folder /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/PlugIns --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/iAd.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreMedia.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreMotion.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreText.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/EventKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/EventKitUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Security.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/Foundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/UIKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreGraphics.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/AddressBook.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/AddressBookUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CFNetwork.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/CoreLocation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/MapKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/MessageUI.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/OpenGLES.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/QuartzCore.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/AudioToolbox.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/MediaPlayer.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/AVFoundation.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/StoreKit.framework --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks/ExternalAccessory.framework --platform iphonesimulator --destination /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app/Frameworks --strip-bitcode
-[TRACE]  
-[TRACE]  Touch build/Products/Debug-iphonesimulator/All\ Things\ Weather.app
-[TRACE]      cd "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone"
-[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
-[TRACE]      /usr/bin/touch -c /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All\ Things\ Weather/build/iphone/build/Products/Debug-iphonesimulator/All\ Things\ Weather.app
-[TRACE]  
-[TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 6s 505ms
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 1s 143ms
 [INFO]   Launching iOS Simulator
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
-[TRACE]  [ioslib]   UDID    = A5E51A24-02BF-4762-B967-E6B103F89D27
-[TRACE]  [ioslib]   iOS     = 9.0
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
+[TRACE]  [ioslib]   UDID    = 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
+[TRACE]  [ioslib]   iOS     = 9.1
 [TRACE]  [ioslib] Autoselected Xcode: 7.3
-[TRACE]  [ioslib] Removing old log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/A5E51A24-02BF-4762-B967-E6B103F89D27/data/Containers/Data/Application/898FA4DF-D430-4CDB-8C6F-293B21CC80E5/Documents/df589f00-560a-466f-9555-143d191eacb5.log
-[TRACE]  [ioslib] iPhone 6 Simulator already running with the correct udid
-[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/JarrodSmith/Library/Logs/CoreSimulator/A5E51A24-02BF-4762-B967-E6B103F89D27/system.log
+[TRACE]  [ioslib] Removing old log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC/data/Containers/Data/Application/CE399EFC-3C20-41DA-980D-203A4B5B01B1/Documents/df589f00-560a-466f-9555-143d191eacb5.log
+[TRACE]  [ioslib] iPhone 5 Simulator already running with the correct udid
+[TRACE]  [ioslib] Tailing iPhone 5 Simulator system log: /Users/JarrodSmith/Library/Logs/CoreSimulator/4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC/system.log
 [TRACE]  [ioslib] Running: osascript "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
-[TRACE]  [ioslib] iPhone 6 Simulator successfully focused
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install A5E51A24-02BF-4762-B967-E6B103F89D27 /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app
+[TRACE]  [ioslib] iPhone 5 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app
 [TRACE]  [ioslib] App installed
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch A5E51A24-02BF-4762-B967-E6B103F89D27 com.JSDevelop.AllThingsWeather
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC com.JSDevelop.AllThingsWeather
 [TRACE]  [ioslib] App launched
-[TRACE]  [All Things Weather] assertion failed: 15E65 13A344: libxpc.dylib + 57978 [9D7FF5E0-5DAA-3118-9A08-436E517037E9]: 0x7d
-[TRACE]  [ioslib] Found application log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/A5E51A24-02BF-4762-B967-E6B103F89D27/data/Containers/Data/Application/AADFAEB8-5D98-4DBA-B9F1-55D79BA6ED22/Documents/df589f00-560a-466f-9555-143d191eacb5.log
+[TRACE]  [ioslib] Found application log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC/data/Containers/Data/Application/029F4D4E-7EC6-4125-97E4-BF9CFBEE8FD6/Documents/df589f00-560a-466f-9555-143d191eacb5.log
+[TRACE]  [All Things Weather] assertion failed: 15E65 13B143: libxpc.dylib + 71730 [D938B614-A290-3D25-8032-8DEF8A01913A]: 0x7d
