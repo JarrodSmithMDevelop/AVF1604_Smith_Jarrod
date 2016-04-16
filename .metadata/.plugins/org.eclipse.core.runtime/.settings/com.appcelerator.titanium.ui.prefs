@@ -1,6 +1,6 @@
 =run
 All\ Things\ Weather\:launchMode=run
-All\ Things\ Weather\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
+All\ Things\ Weather\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.simulator.launchShortcut.Custom Phone - 6.0.0 - API 23 - 768x1280
 LAST_LAUNCH_TIMESTAMP=1460675235049
 Weather\:launchMode=run
 Weather\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.621EA089-C4A3-457B-A8CD-14C0299C1F57

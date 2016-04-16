@@ -11,15 +11,13 @@ var mainWindow = Ti.UI.createWindow({
 });
 
 if (Ti.Network.online === true){
+	console.log("app js if statement");
 	var loadGeo = require("location");
+	console.log("ran load geo");
 	loadGeo.runGetGeo();
 } else {
 	alert("Please check network connection!");
 	};
-
-//var infoDisplay = require("infoDisplay");
-//var network = require("network"); 
-//var location = require("location");
 
 
 

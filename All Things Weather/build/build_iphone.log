@@ -1,5 +1,5 @@
 
-4/14/2016, 10:45:29 PM
+4/15/2016, 5:51:48 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,14 +21,8 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/JarrodSmith/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.2.0.GA --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather --target simulator --ios-version 9.3 --device-family universal --sim-type iphone --sim-version 9.1 --device-id 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49616 --config-file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-1460691927789.json --no-banner --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather
+  /usr/local/bin/node /Users/JarrodSmith/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.2.0.GA --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather --target device --ios-version 9.3 --device-family universal --developer-name jsmithpfm@yahoo.com (V7K4R78R4E) --device-id b148947d764c654d0ef20b873cb383522b05a819 --pp-uuid 0dfbc757-ac3a-4209-90d2-7b51174670bd --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49616 --config-file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-1460760707155.json --no-banner --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather
 
-[TRACE]  [ioslib] Validating iOS Simulator UDID 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
-[TRACE]  [ioslib] Found iOS Simulator UDID 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
-[TRACE]  [ioslib]   UDID    = 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
-[TRACE]  [ioslib]   iOS     = 9.1
-[TRACE]  [ioslib] Autoselected Xcode: 7.3
 [DEBUG]  Detecting modules in /Users/JarrodSmith/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: facebook 4.0.5 @ /Users/JarrodSmith/Library/Application Support/Titanium/modules/android/facebook/4.0.5
 [DEBUG]  Detected android module: facebook 5.0.0 @ /Users/JarrodSmith/Library/Application Support/Titanium/modules/android/facebook/5.0.0
@@ -53,25 +47,24 @@ Command
 [TRACE]  Snapshotting build directory
 [DEBUG]  Titanium SDK iOS directory: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/iphone
 [INFO]   Deploy type: development
-[INFO]   Building for target: simulator
+[INFO]   Building for target: device
 [INFO]   Building using iOS SDK: 9.3
-[INFO]   Building for iOS Simulator: iPhone 5
-[DEBUG]  UDID: 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
-[DEBUG]  Simulator type: iphone
-[DEBUG]  Simulator version: 9.1
+[INFO]   Building for iOS device: b148947d764c654d0ef20b873cb383522b05a819
 [INFO]   Building for device family: universal
 [DEBUG]  Setting Xcode target to Debug
-[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Setting Xcode build OS to iphoneos
 [DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
 [DEBUG]  iOS WWDR certificate: installed
+[INFO]   iOS Development Certificate: jsmithpfm@yahoo.com (V7K4R78R4E)
 [INFO]   Minimum iOS version: 7.1
+[INFO]   Using default keychain
 [INFO]   Debugging disabled
 [INFO]   Profiler disabled
 [INFO]   Set to copy files instead of symlinking
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-22d1e27b70315c2b37b1287d56c439c71768ab9c.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 16663.184 sec ago
+[TRACE]  optimizing build, last build was 85441.896 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -99,8 +92,8 @@ Command
 [INFO]   Installing default LaunchScreen.storyboard
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/LaunchScreen.storyboard
 [INFO]   Creating debugger and profiler plists
-[DEBUG]  Skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/debugger.plist
-[DEBUG]  Skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/profiler.plist
+[DEBUG]  Skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/debugger.plist
+[DEBUG]  Skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/profiler.plist
 [INFO]   Analyzing Resources directory
 [INFO]   Analyzing platform files
 [INFO]   Analyzing module files
@@ -133,10 +126,10 @@ Command
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
 [INFO]   App thinning disabled, skipping asset image sets
 [DEBUG]  Copying resources
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/KS_nav_ui.png
-[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/KS_nav_ui.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/KS_nav_ui.png
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/KS_nav_views.png
-[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/KS_nav_views.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/KS_nav_ui.png
+[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/KS_nav_ui.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/KS_nav_views.png
+[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/KS_nav_views.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/KS_nav_views.png
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
 [DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/iphone/Default-568h@2x.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
@@ -157,43 +150,56 @@ Command
 [DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/iphone/Default@2x.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
-[DEBUG]  Overwriting /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/liveview.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/app.js
-[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/infoDisplay.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/infoDisplay.js
-[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/location.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/location.js
-[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/network.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/network.js
+[DEBUG]  Overwriting /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/liveview.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/app.js
+[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/infoDisplay.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/infoDisplay.js
+[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/location.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/location.js
+[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/Resources/network.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/network.js
 [INFO]   Writing app properties
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/_app_props_.json
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/_app_props_.json
 [DEBUG]  Using default application routing
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Classes/ApplicationRouting.m
 [INFO]   Writing i18n files
 [DEBUG]  No i18n files to process
 [INFO]   Processing Titanium symbols
 [DEBUG]  Processing Titanium namespace resources
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/modules/ui/images/badge.png
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/modules/ui/images/closeButton.png
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/modules/ui/images/photoDefault.png
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/Classes/defines.h
 [INFO]   Removing files
+[DEBUG]  Removing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.ipa
 [DEBUG]  Removing empty directories
+[INFO]   Optimizing .plist and .png files
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/Info.plist
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/modules/ui/images/photoDefault.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/LaunchScreen.storyboardc/Info.plist
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon29x29@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon29x29@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon29x29@3x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon29x29~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon40x40@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon40x40@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon40x40@3x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon40x40~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon60x60@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon60x60@3x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon76x76@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon76x76~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/AppIcon83.5x83.5@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/LaunchImage-700-568h@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/LaunchImage-700-Landscape@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/LaunchImage-700-Landscape~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/LaunchImage-700-Portrait@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/LaunchImage-700-Portrait~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/LaunchImage-700@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/LaunchImage-800-667h@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/LaunchImage-800-Landscape-736h@3x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphoneos/All Things Weather.app/LaunchImage-800-Portrait-736h@3x.png
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 770ms
-[INFO]   Launching iOS Simulator
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
-[TRACE]  [ioslib]   UDID    = 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
-[TRACE]  [ioslib]   iOS     = 9.1
-[TRACE]  [ioslib] Autoselected Xcode: 7.3
-[TRACE]  [ioslib] Removing old log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC/data/Containers/Data/Application/029F4D4E-7EC6-4125-97E4-BF9CFBEE8FD6/Documents/df589f00-560a-466f-9555-143d191eacb5.log
-[TRACE]  [ioslib] iPhone 5 Simulator is running, but not in a booted state, stopping simulator
-[TRACE]  [ioslib] Tailing iPhone 5 Simulator system log: /Users/JarrodSmith/Library/Logs/CoreSimulator/4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC/system.log
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
-[TRACE]  [ioslib] iPhone 5 Simulator was already shutdown
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC
-[TRACE]  [ioslib] iPhone 5 Simulator started
-[TRACE]  [ioslib] Running: osascript "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
-[TRACE]  [ioslib] iPhone 5 Simulator successfully focused
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/iphone/build/Products/Debug-iphonesimulator/All Things Weather.app
-[TRACE]  [ioslib] App installed
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC com.JSDevelop.AllThingsWeather
-[TRACE]  [ioslib] App launched
-[TRACE]  [ioslib] Found application log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/4CEBAE54-9A9A-435D-BD74-8DAA9E3D15EC/data/Containers/Data/Application/D0313F65-8707-427A-AAE4-8D7FFC355177/Documents/df589f00-560a-466f-9555-143d191eacb5.log
-[TRACE]  [All Things Weather] assertion failed: 15E65 13B143: libxpc.dylib + 71730 [D938B614-A290-3D25-8032-8DEF8A01913A]: 0x7d
+[INFO]   Finished building the application in 1s 432ms
+[INFO]   Installing app on device: Jarrod's iPad
+[INFO]   App successfully installed on device: Jarrod's iPad
