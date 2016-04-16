@@ -5,7 +5,7 @@ var url = "http://api.wunderground.com/api/4f7172086eb9b9c8/conditions/q/" + lat
 console.log(url);
 
 
-if (Ti.Network.online) {
+if (Ti.Network.online == true) {
      var getData = Ti.Network.createHTTPClient();
      getData.onload = function(url){
           console.log(getData);  //this is the raw data-string returned from the URL request

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.JSDevelop</id>
+    <id>com.JSDevelop.Weather</id>
     <name>Weather</name>
     <version>1.0</version>
     <publisher>JarrodSmith</publisher>
@@ -17,15 +17,14 @@
         <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
         <plist>
             <dict>
-            	 <key>NSLocationWhenInUseUsageDescription</key> 
-					<array>
-     					<string>Please allow the app to access your Location to find XYZ near you.</string>
-					</array>
-               
-                <key>NSLocationUsageDescription</key> 
-					<array>
-     					<string>Please allow the app to access your Location to find XYZ near you.</string>
-					</array>
+                <key>NSLocationWhenInUseUsageDescription</key>
+                <array>
+                    <string>Please allow the app to access your Location to find XYZ near you.</string>
+                </array>
+                <key>NSLocationUsageDescription</key>
+                <array>
+                    <string>Please allow the app to access your Location to find XYZ near you.</string>
+                </array>
                 <key>UISupportedInterfaceOrientations~iphone</key>
                 <array>
                     <string>UIInterfaceOrientationPortrait</string>

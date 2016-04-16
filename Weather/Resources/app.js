@@ -11,7 +11,7 @@ console.log("main window");
 if (Ti.Network.online === true){
 		console.log("Entering getGeo");
 		var runGeo = require("geo");
-		runGeo.getGeo();
+		runGeo.geoRun();
 		console.log("getGeo Ran");
 } else{
 	alert("Check your network connection!");

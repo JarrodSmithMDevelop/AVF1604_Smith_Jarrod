@@ -1,8 +1,8 @@
-#appname: Weather
-#publisher: JarrodSmith
-#url: 
-#image: appicon.png
-#appid: com.JSDevelop
-#desc: undefined
-#type: ipad
-#guid: 7db24ffa-7c55-461c-9666-64a104c59be5
+#appname:Weather
+#publisher:JarrodSmith
+#url:undefined
+#image:appicon.png
+#appid:com.JSDevelop.Weather
+#desc:undefined
+#type:ipad
+#guid:7db24ffa-7c55-461c-9666-64a104c59be5

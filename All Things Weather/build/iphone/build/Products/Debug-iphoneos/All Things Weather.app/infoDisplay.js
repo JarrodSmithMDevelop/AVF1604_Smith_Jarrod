@@ -1,5 +1,5 @@
-var buildUi = function(weatherObj){
-
+var buildUI = function(weatherObj){
+console.log("In build UI Function");
 var phoneHeight = Ti.Platform.displayCaps.platformHeight;
 var phoneWidth = Ti.Platform.displayCaps.platformWidth;
 
@@ -24,7 +24,7 @@ var locationLabel = Ti.UI.createLabel({
 
 var location = Ti.UI.createLabel({
 	color:'#FFFCCC',
-	text: weatherObj.city + ", " + weatherObj.state + "\n" + weatherObj.zipCode,
+	text: weatherObj.city + ", " + weatherObj.state + "\n" + weatherObj.zip,
 	left: 15,
 	top: 80,
 	font:{fontSize:20,fontFamily:'Helvetica Neue'},
@@ -105,7 +105,7 @@ var currentWeather = Ti.UI.createLabel({
 
 var amountPercentage = Ti.UI.createLabel({
 	color:'#FFFCCC',
-	text: weather.amountOfPrecip,
+	text: weatherObj.amountOfPrecip,
 	right: 15,
 	bottom: 50,
 	font:{fontSize:32,
@@ -148,5 +148,7 @@ var humidityLabel = Ti.UI.createLabel({
 });
 
 
-mainWindow.add( locationBackground, precipBackground, windSpeedLabel, windSpeed, currentWeather, currentWeatherLabel, humidityPercentage, humidityLabel, precipPercentage, precipLabel, locationLabel ,location , currentTempLabel, tempReading);
+mainWindow.add( locationBackground, precipBackground, windSpeedLabel, windSpeed, currentWeather, currentWeatherLabel, humidityPercentage, humidityLabel, amountPercentage, precipLabel, locationLabel ,location , currentTempLabel, tempReading);
 };
+
+exports.weatherUI = buildUI;

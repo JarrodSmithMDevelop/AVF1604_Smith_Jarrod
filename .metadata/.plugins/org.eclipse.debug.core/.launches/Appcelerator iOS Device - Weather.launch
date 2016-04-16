@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.appcelerator.titanium.mobile.ui.ios.installer.launchConfigurationType">
+<booleanAttribute key="ATTR_MINIFY" value="true"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="Weather"/>
+<stringAttribute key="ATTR_TITANIUM_DEPLOY_TYPE" value="development"/>
+<booleanAttribute key="ATTR_UPLOAD_DEBUG_SYMBOLS" value="false"/>
+<stringAttribute key="appid" value="com.JSDevelop.Weather"/>
+<stringAttribute key="certificate" value="jsmithpfm@yahoo.com (V7K4R78R4E)"/>
+<stringAttribute key="debug_config" value="::1460769671327:192.168.56.1,192.168.1.11"/>
+<stringAttribute key="debug_hosts" value="192.168.56.1,192.168.1.11"/>
+<stringAttribute key="device_id" value="b148947d764c654d0ef20b873cb383522b05a819"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Weather"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.capture_output" value="true"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+<stringAttribute key="process_factory_id" value="com.appcelerator.titanium.ui.logLevelFilteringProcessFactory"/>
+<stringAttribute key="sdk_version" value="9.3"/>
+<stringAttribute key="uuid" value="e7ee70c3-2d6c-484e-9f64-38719ccff92d"/>
+</launchConfiguration>
