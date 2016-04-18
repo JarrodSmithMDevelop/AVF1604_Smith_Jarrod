@@ -1,0 +1,8 @@
+
+var weatherInfo = function(dbRows){
+	console.log("Inside weatherInfo function");
+	
+	console.log(dbRows.city);
+};
+
+exports.weatherInfo = weatherInfo;

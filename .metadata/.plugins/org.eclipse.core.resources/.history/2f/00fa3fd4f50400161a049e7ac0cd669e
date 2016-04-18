@@ -1,0 +1,11 @@
+//Reads from the sql database
+
+var read = function(){
+console.log("Inside read function!");
+	var db = Ti.Database.open('weatherInfo');		
+	var dbRows = db.execute('SELECT city, state, zip, currentTemp, heatIndex, windChill, stationId, currentWeather, windSpeed, windDirection, windGust, humidity, feelsLike, local, visability, pressure, dewpoint, dateTime FROM weatherInfo');
+	console.log(dbRows);
+	
+};
+
+exports.read = read;

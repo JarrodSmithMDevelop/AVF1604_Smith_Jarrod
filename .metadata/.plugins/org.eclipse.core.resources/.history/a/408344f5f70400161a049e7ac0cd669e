@@ -1,0 +1,8 @@
+
+var weatherInfo = function(sqlData){
+	console.log("Inside weatherInfo function");
+	
+	console.log(sqlData);
+};
+
+exports.weatherInfo = weatherInfo;

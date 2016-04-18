@@ -1,0 +1,6 @@
+
+var weatherInfo = function(){
+	console.log("Inside weatherInfo function");
+};
+
+exports.weatherInfo = weatherInfo;

@@ -25,13 +25,14 @@ var url = "http://api.wunderground.com/api/4f7172086eb9b9c8/conditions/q/" + lat
 					humidity: json.current_observation.relative_humidity,
 					feelsLike: json.current_observation.feelslike_f,
 					local: json.current_observation.local_tz_short,
-					estimate: json.current_observation.temperature_string,
 					visability: json.current_observation.visibility_mi,
 					pressure: json.current_observation.pressure_in,
 					dewpoint: json.current_observation.dewpoint_f,
-					dataTime: json.current_observation.observation_time
+					dateTime: json.current_observation.observation_time
 				};
 				console.log(observation);
+				var create = require("sqlCreate");
+				create.createSql(observation);
 			};
 		
 		fetchData.open("GET", url);

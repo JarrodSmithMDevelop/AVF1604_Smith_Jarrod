@@ -1,0 +1,8 @@
+//Reads from the sql database
+
+var read = function(){
+	console.log("Inside read function!");
+	
+};
+
+exports.read = read;
