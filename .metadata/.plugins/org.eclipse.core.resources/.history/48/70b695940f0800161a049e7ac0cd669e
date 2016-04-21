@@ -3,10 +3,9 @@ var getGeo = function(){
 if (Ti.Platform.osname === "android"){
 	
 	var lat = 30;
-	var lng = -120;
+	var lng = 120;
 		console.log("This is the android coords!",lat, lng);
-			var weather = require("data");
-			weather.weatherData(lat, lng);
+	
 	
 }else{
 	if (Ti.Geolocation.locationServicesEnabled){
