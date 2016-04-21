@@ -1,0 +1,247 @@
+
+var weatherInfo = function(sqlData, information){
+	console.log("Inside weatherInfo function", information.city);
+	
+	
+	
+var phoneHeight = Ti.Platform.displayCaps.platformHeight;
+var phoneWidth = Ti.Platform.displayCaps.platformWidth;
+
+
+
+var locationBackground = Ti.UI.createView({
+	backgroundColor: "#1C20AB",
+	height: 130,
+	width: phoneWidth,
+	top: 20
+});
+
+var locationLabel = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: "Location",
+	left: 15,
+	top: 40,
+	font:{fontSize:20,fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var location = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: information.city + ", " + information.state + "\n" + information.zip,
+	left: 15,
+	top: 80,
+	font:{fontSize:20,fontFamily:'Helvetica Neue'},
+	textAlign:'left',
+	width:'auto'
+});
+
+
+var currentTempLabel = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: "Current Tempature",
+	right: 15,
+	top: 40,
+	font:{fontSize:20,fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var tempReading = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: information.currentTemp,
+	right: 15,
+	top: 70,
+	font:{fontSize:60,fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var precipBackground = Ti.UI.createView({
+	backgroundColor: "#1C20AB",
+	height: 150,
+	width: phoneWidth,
+	bottom: 0
+}); 
+
+var feelsLikeLabel =Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: "Feels Like",
+	right: 15,
+	top:175,
+	font:{fontSize:22,fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var feelsLike =Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: information.feelsLike,
+	right: 15,
+	top:205,
+	font:{fontSize:30,fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var windSpeedLabel =Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: "Wind",
+	right: 15,
+	top: 275,
+	font:{fontSize:22,fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var windSpeed = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: information.windSpeed,
+	right: 15,
+	top: 295,
+	font:{fontSize:60,fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var windDir = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: information.windDirection,
+	right: 15,
+	top: 355,
+	font:{fontSize:32,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var windGustLabel = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: "Wind Gust",
+	right: 15,
+	top: 425,
+	font:{fontSize:20,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var windGust = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: information.windGust,
+	right: 15,
+	top: 460,
+	font:{fontSize:30,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var currentWeatherLabel = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: "Current Weather",
+	left: 15,
+	top: 175,
+	font:{fontSize:20,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var currentWeather = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: information.currentWeather,
+	left: 15,
+	top: 210,
+	font:{fontSize:18,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var visabilityLabel = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: "Current Weather",
+	left: 15,
+	top: 275,
+	font:{fontSize:20,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var visability = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: information.visability,
+	left: 15,
+	top: 295,
+	font:{fontSize:60,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var time = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: information.dateTime,
+	right: 15,
+	bottom: 50,
+	font:{fontSize:20,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var lastUpdate = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: "Last update",
+	right: 15,
+	bottom: 90,
+	font:{fontSize:20,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var humidityLabel = Ti.UI.createLabel({
+	color: '#FFFCCC',
+	text: "Humidity",
+	left: 15,
+	bottom: 90,
+	font:{fontSize:20,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var humidityPercentage = Ti.UI.createLabel({
+	color:'#FFFCCC',
+	text: information.humidity,
+	left: 15,
+	bottom: 50,
+	font:{fontSize:32,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+var humidityLabel = Ti.UI.createLabel({
+	color: '#FFFCCC',
+	text: "Humidity",
+	left: 15,
+	bottom: 90,
+	font:{fontSize:20,
+	fontFamily:'Helvetica Neue'},
+	textAlign:'center',
+	width:'auto'
+});
+
+
+
+
+mainWindow.add( locationBackground, precipBackground, feelsLikeLabel, feelsLike, windSpeedLabel, windGustLabel, windGust, windDir, windSpeed, currentWeather, currentWeatherLabel, humidityPercentage, humidityLabel, time, lastUpdate, locationLabel ,location , currentTempLabel, tempReading);
+
+
+};
+
+exports.weatherInfo = weatherInfo;

@@ -1,0 +1,41 @@
+//Reads from the sql database
+var UI = require("UI");
+var sqlData = [];
+
+var read = function(){
+console.log("Inside read function!");
+	var db = Ti.Database.open('weatherInfo');		
+	var dbRows = db.execute('SELECT city, state, zip, currentTemp, heatIndex, windChill, stationId, currentWeather, windSpeed, windDirection, windGust, humidity, feelsLike, local, visability, pressure, dewpoint, dateTime FROM weatherInfo');
+	console.log("Before read function runs data!", dbRows);
+	
+		while(dbRows.isValidRow()){
+			var information = ({
+				city: dbRows.fieldByName('city'),
+				state: dbRows.fieldByName('state'),
+				zip: dbRows.fieldByName('zip'),
+				currentTemp: dbRows.fieldByName('currentTemp'),
+				heatIndex: dbRows.fieldByName('heatIndex'),
+				windChill: dbRows.fieldByName('windChill'),
+				stationId: dbRows.fieldByName('stationId'),
+				currentWeather: dbRows.fieldByName('currentWeather'),
+				windSpeed: dbRows.fieldByName('windSpeed'),
+				windDirection: dbRows.fieldByName('windDirection'),
+				windGust: dbRows.fieldByName('windGust'),
+				humidity: dbRows.fieldByName('humidity'),
+				feelsLike: dbRows.fieldByName('feelsLike'),
+				local: dbRows.fieldByName('local'),
+				visability: dbRows.fieldByName('visability'),
+				pressure: dbRows.fieldByName('pressure'),
+				dewpoint: dbRows.fieldByName('dewpoint'),
+				dateTime: dbRows.fieldByName('dateTime')
+			});
+			dbRows.next();
+		};
+		console.log("After read function runs data!",information.city);
+		dbRows.close();
+		db.close();
+		sqlData.push(information);
+		UI.weatherInfo(dbRows);
+};
+
+exports.read = read;

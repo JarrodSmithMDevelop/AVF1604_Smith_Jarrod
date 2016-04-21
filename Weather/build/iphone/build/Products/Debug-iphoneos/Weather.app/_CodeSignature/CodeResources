@@ -58,7 +58,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		orrk7mmWhvxyzGL3X1h9vRX+gT0=
+		qMGfn6FK8pKglOTHiwt1/mExyjs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>UI.js</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		6KMxzqnHAwECdPS5iAHEGFsCayU=
 		</data>
 		<key>_app_props_.json</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>data.js</key>
 		<data>
-		E67TZmJ1hVe7Ru61DRsl8cV5vUE=
+		FnnYQFA4gY0av8u/JEBxmBC1N8c=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -159,6 +159,14 @@
 		<key>modules/ui/images/photoDefault.png</key>
 		<data>
 		lLVMxC6YV4FmPpj98HVvSs0OFq8=
+		</data>
+		<key>sqlCreate.js</key>
+		<data>
+		uoP2zo71uthU9MxafMtKnwbD3mQ=
+		</data>
+		<key>sqlRead.js</key>
+		<data>
+		CYpr9RGMa3PqyyVTRJkLMn9ACfM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -310,11 +318,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			orrk7mmWhvxyzGL3X1h9vRX+gT0=
+			qMGfn6FK8pKglOTHiwt1/mExyjs=
 			</data>
 			<key>hash2</key>
 			<data>
-			4n9OCSYvsGLRgOLMgtPPe/7imXUPwyqN+fbsTPfI+6Y=
+			hQOfSXi+NGbLhU+cxrX0GtLdGYItUvW1rBpIZr7ZOrs=
 			</data>
 		</dict>
 		<key>KS_nav_ui.png</key>
@@ -475,11 +483,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			6KMxzqnHAwECdPS5iAHEGFsCayU=
 			</data>
 			<key>hash2</key>
 			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			occlm13LSm0KLgSJ5t8jGf0mm0bFujETAzAb7wBBARg=
 			</data>
 		</dict>
 		<key>_app_props_.json</key>
@@ -508,11 +516,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E67TZmJ1hVe7Ru61DRsl8cV5vUE=
+			FnnYQFA4gY0av8u/JEBxmBC1N8c=
 			</data>
 			<key>hash2</key>
 			<data>
-			kz4eAxgDgEHx327ZnyvQprK+EVtJYzuyN1IpUbYplD8=
+			PDt5hMuw9hRtHOdnX//zvFnTEETIh83CaWxSQy1v8pU=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -568,6 +576,28 @@
 			<key>hash2</key>
 			<data>
 			S74Fh0DVmpMRSYggD6OnjifLYP+HnewOOhPX62tCbg8=
+			</data>
+		</dict>
+		<key>sqlCreate.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uoP2zo71uthU9MxafMtKnwbD3mQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			NbaXsvzKxQQA9kj8Hx6R9Re5LFebbZMwcrhFr491UZU=
+			</data>
+		</dict>
+		<key>sqlRead.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CYpr9RGMa3PqyyVTRJkLMn9ACfM=
+			</data>
+			<key>hash2</key>
+			<data>
+			B8045GOrjxBpfdSDQ8rfEvaYmU91nhuQJ3YGNQn79aU=
 			</data>
 		</dict>
 	</dict>
