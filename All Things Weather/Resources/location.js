@@ -5,14 +5,14 @@ var getGeo = function(lat,lng){
 	if  (Ti.Platform.osname == "android"){
 
 		
-			var lat = 0;
+			var lat = 37.4020;
 			console.log(lat);
-			var lng = 0;
+			var lng = -86.8758;;
             
         console.log("theses are cordinates", lat, lng);
 
         var network = require("network");
-		network.weatherData(lat, lng);
+		network.weatherObj(lat, lng);
 		console.log("android platform");
 
 			

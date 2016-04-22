@@ -2,7 +2,7 @@
 <launchConfiguration type="com.appcelerator.titanium.mobile.ui.android.simulator.launchConfigurationType">
 <stringAttribute key="ATTR_PROJECT_NAME" value="All Things Weather"/>
 <stringAttribute key="abi" value="x86_64"/>
-<stringAttribute key="device-id" value="Custom Phone - 6.0.0 - API 23 - 768x1280"/>
+<stringAttribute key="device-id" value="Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560"/>
 <stringAttribute key="key_password" value=""/>
 <stringAttribute key="keystore_alias" value=""/>
 <stringAttribute key="keystore_password" value=""/>

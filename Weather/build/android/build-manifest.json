@@ -1,5 +1,5 @@
 {
-	"target": "device",
+	"target": "emulator",
 	"deployType": "development",
 	"classname": "Weather",
 	"platformPath": "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android",
@@ -12,9 +12,9 @@
 	"id": "com.JSDevelop.Weather",
 	"analytics": true,
 	"publisher": "JarrodSmith",
-	"url": "",
+	"url": "com.jsmithMdevelop",
 	"version": "1.0",
-	"description": "",
+	"description": "undefined",
 	"copyright": "2016 by JarrodSmith",
 	"guid": "7db24ffa-7c55-461c-9666-64a104c59be5",
 	"icon": "appicon.png",

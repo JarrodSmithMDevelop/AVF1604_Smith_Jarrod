@@ -1,5 +1,5 @@
 
-4/21/2016, 5:44:26 PM
+4/21/2016, 8:58:04 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = android
 
 Command
-  /usr/local/bin/node /Users/JarrodSmith/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --platform android --log-level trace --sdk 5.2.0.GA --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather --target device --android-sdk /Users/JarrodSmith/Library/android-sdk-macosx --device-id 0715f768bad21336 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49616 --config-file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-1461278663060.json --no-banner --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather
+  /usr/local/bin/node /Users/JarrodSmith/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --platform android --log-level trace --sdk 5.2.0.GA --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather --target emulator --android-sdk /Users/JarrodSmith/Library/android-sdk-macosx --device-id Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49452 --config-file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-1461290281499.json --no-banner --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather
 
 [DEBUG]  Detecting modules in /Users/JarrodSmith/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: facebook 4.0.5 @ /Users/JarrodSmith/Library/Application Support/Titanium/modules/android/facebook/4.0.5
@@ -47,8 +47,8 @@ Command
 [TRACE]  Snapshotting build directory
 [DEBUG]  Titanium SDK Android directory: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android
 [INFO]   Deploy type: development
-[INFO]   Building for target: device
-[INFO]   Building for device: 0715f768bad21336
+[INFO]   Building for target: emulator
+[INFO]   Building for emulator: Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560
 [INFO]   Targeting Android SDK API: 23
 [INFO]   Building for the following architectures: armeabi, armeabi-v7a, x86
 [INFO]   Signing with keystore: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/dev_keystore (tidev)
@@ -59,9 +59,25 @@ Command
 [INFO]   Forcing rebuild: JavaScript encryption flag changed
 [INFO]     Was: true
 [INFO]     Now: false
+[INFO]   Launching emulator: Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560
+[TRACE]  Starting emulator: Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560
+[TRACE]  Checking if emulator Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560 is running...
+[TRACE]  Detecting if Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560 exists...
+[TRACE]  Found 1 emulators
+[TRACE]  Emulator exists, detecting all running emulators and connected devices...
+[TRACE]  Detected 0 running emulators and connected devices
+[TRACE]  Emulator not running, detecting running emulators
+[TRACE]  Found 1 emulators
+[TRACE]  Starting the emulator...
+[INFO]   Running: /Applications/Genymotion.app/Contents/MacOS/player.app/Contents/MacOS/player --vm-name "Samsung Galaxy S6 - 6.0.0 - API 23 - 1440x2560"
+[TRACE]  Emulator is starting, monitoring boot state...
+[TRACE]  Checking the boot state for the next 240000 ms
+[TRACE]  Waiting for emulator to register with ADB
+[TRACE]  Emulator process started
 [TRACE]  offline build file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-44716c391478702012635502a60d1b63c5e12f3b.json
+[TRACE]  No devices found, continuing to wait
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 1398.02 sec ago
+[TRACE]  optimizing build, last build was 9591.287 sec ago
 [DEBUG]  Copying /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/Resources
 [WARN]   Overwriting file /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/assets/Resources/KS_nav_ui.png
 [DEBUG]  Symlinking /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/Resources/KS_nav_ui.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/assets/Resources/KS_nav_ui.png
@@ -127,39 +143,39 @@ Command
 [DEBUG]  Unknown namespace stream, skipping
 [INFO]   Writing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/assets/app.json
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-analytics.res.zip
-[DEBUG]  Copying /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-trlgt9/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Copying /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-b9t4cq/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-android.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-15xz8nd/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-g666s9/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-app.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-1mti2x1/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-1iyxgq8/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-filesystem.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-ulqiy5/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-8glu66/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-media.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-skmf2n/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-1ik9en4/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-locale.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-1fjk7kc/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-19uzmkj/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-network.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-11bysu2/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-dq4cas/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-xml.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-kvsmi5/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-1wz9wqb/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-utils.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-1l3qayy/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-idcgax/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-geolocation.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-1npsrn3/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-er480j/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-accelerometer.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-qsw1t/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-1bwzurv/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-contacts.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-1w8zrfj/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-1asxjf5/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-map.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-3xfvk4/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-ha26ry/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-gesture.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-k7sg2y/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-5omgp7/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-calendar.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-xywehu/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-1j1x2n0/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-platform.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-ynezhi/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-in1ro8/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-database.res.zip
-[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-map02a/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-1apnkc2/res/values/strings.xml => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [DEBUG]  Removing old file: /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/.classpath
 [DEBUG]  Removing old file: /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/.gitignore
 [DEBUG]  Removing old file: /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/.project
@@ -177,9 +193,17 @@ Command
 [INFO]   Generating i18n files
 [DEBUG]  Merging en strings => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/strings.xml
 [INFO]   Generating /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res/values/theme.xml
-[INFO]   Packaging application: /Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.1/aapt "package" "-f" "-m" "-J" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/gen" "-M" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/AndroidManifest.xml" "-A" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/assets" "-S" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res" "-I" "/Users/JarrodSmith/Library/android-sdk-macosx/platforms/android-23/android.jar" "-F" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview" "-S" "/var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-1m8i8wf/res" "-S" "/var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-obhdhg/res" "-S" "/var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-97123-6et0u/res"
+[INFO]   Packaging application: /Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.3/aapt "package" "-f" "-m" "-J" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/gen" "-M" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/AndroidManifest.xml" "-A" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/assets" "-S" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/res" "-I" "/Users/JarrodSmith/Library/android-sdk-macosx/platforms/android-23/android.jar" "-F" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview" "-S" "/var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-1fh65x/res" "-S" "/var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-46ktam/res" "-S" "/var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/116321-19288-1c5vw6v/res"
 [INFO]   Building Java source files: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/javac "-J-Xmx1024M" "-encoding" "utf8" "-bootclasspath" "/Users/JarrodSmith/Library/android-sdk-macosx/platforms/android-23/android.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/kroll-v8.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-analytics.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/aps-analytics.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-android.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/jaxen-1.1.1.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/ti-commons-codec-1.3.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/kroll-common.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/titanium.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-app.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-ui.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/nineoldandroids-appc-2.4.0.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-filesystem.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-media.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-appcompat.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/android-support-v4.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/android-support-v7-appcompat.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-cardview.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/cardview-v7-23.0.1.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-locale.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-network.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-xml.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-utils.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-geolocation.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-accelerometer.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-contacts.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-map.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-gesture.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-calendar.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-platform.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-database.jar:/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/lib/titanium-verify.jar:R.class:AssetCryptImpl.class:WeatherActivity.class:WeatherAppInfo.class:WeatherApplication.class" "-d" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/java-sources.txt"
-[INFO]   Running dexer: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/java "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=/Users/JarrodSmith/Library/android-sdk-macosx/platform-tools" "-jar" "/Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.1/lib/dx.jar" "--dex" "--output=/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/classes.dex" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/classes" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/lib/titanium-verify.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/kroll-v8.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-analytics.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/aps-analytics.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-android.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/jaxen-1.1.1.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/ti-commons-codec-1.3.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/kroll-common.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/titanium.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-app.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-ui.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/nineoldandroids-appc-2.4.0.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-filesystem.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-media.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-appcompat.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/android-support-v4.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/android-support-v7-appcompat.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-cardview.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/cardview-v7-23.0.1.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-locale.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-network.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-xml.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-utils.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-geolocation.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-accelerometer.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-contacts.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-map.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-gesture.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-calendar.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-platform.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-database.jar"
+[INFO]   Running dexer: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/java "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=/Users/JarrodSmith/Library/android-sdk-macosx/platform-tools" "-jar" "/Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.3/lib/dx.jar" "--dex" "--output=/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/classes.dex" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/classes" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/lib/titanium-verify.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/kroll-v8.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-analytics.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/aps-analytics.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-android.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/jaxen-1.1.1.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/ti-commons-codec-1.3.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/kroll-common.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/titanium.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-app.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-ui.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/nineoldandroids-appc-2.4.0.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-filesystem.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-media.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-appcompat.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/android-support-v4.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/android-support-v7-appcompat.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-cardview.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/cardview-v7-23.0.1.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-locale.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-network.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-xml.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-utils.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-geolocation.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-accelerometer.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-contacts.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-map.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-gesture.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-calendar.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-platform.jar" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/modules/titanium-database.jar"
+[TRACE]  Found 1 devices, checking if any of them are the emulator...
+[TRACE]  Emulator is running!
+[TRACE]  Checking if boot animation has finished...
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
 [INFO]   Creating unsigned apk
 [DEBUG]  Processing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/app.ap_
 [DEBUG]  Deflating AndroidManifest.xml
@@ -565,37 +589,38 @@ Command
 [DEBUG]  Adding lib/x86/libstlport_shared.so
 [DEBUG]  Adding lib/x86/libtiverify.so
 [INFO]   Writing unsigned apk: /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/app-unsigned.apk
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
 [INFO]   Using MD5withRSA signature algorithm
 [INFO]   Signing apk: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jarsigner "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/dev_keystore" "-storepass" "*******" "-signedjar" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/Weather.apk" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/app-unsigned.apk" "tidev"
-[INFO]   Aligning zip file: /Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.1/zipalign "-v" "4" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/Weather.apk" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/Weather.apkz"
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[INFO]   Aligning zip file: /Users/JarrodSmith/Library/android-sdk-macosx/build-tools/23.0.3/zipalign "-v" "4" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/Weather.apk" "/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/Weather.apkz"
 [INFO]   Writing build manifest: /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/build-manifest.json
 [INFO]   Making sure the adb server is running
-[ERROR]  Error: Failed to start ADB (code 255): adb I 97295 4939018 usb_osx.cpp:259] Found vid=04e8 pid=6860 serial=0715f768bad21336
-adb I 97295 4939018 usb_osx.cpp:259] 
-adb E 97295 4939018 usb_osx.cpp:331] Could not open interface: e00002c5
-adb E 97295 4939018 usb_osx.cpp:265] Could not find device interface
-error: could not install *smartsocket* listener: Address already in use
-ADB server didn't ACK
-* failed to start daemon *
-error: cannot connect to daemon
-
-    at /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/titanium-sdk/lib/adb.js:460:20
-    at ChildProcess.<anonymous> (/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/node-appc/lib/subprocess.js:60:3)
-    at emitTwo (events.js:87:13)
-    at ChildProcess.emit (events.js:172:7)
-    at maybeClose (internal/child_process.js:821:16)
-    at Socket.<anonymous> (internal/child_process.js:319:11)
-    at emitOne (events.js:77:13)
-    at Socket.emit (events.js:169:7)
----------------------------------------------
-    at Object.run (/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/node-appc/lib/subprocess.js:59:8)
-    at /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/titanium-sdk/lib/adb.js:459:19
-    at /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/titanium-sdk/lib/adb.js:445:4
-    at Object.detect (/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/titanium-sdk/lib/android.js:67:44)
-    at androidDetect (/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/titanium-sdk/lib/adb.js:437:25)
-    at ADB.startServer (/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/titanium-sdk/lib/adb.js:457:2)
-    at /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/cli/hooks/run.js:137:10
-    at /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/async/lib/async.js:713:13
-    at iterate (/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/async/lib/async.js:262:13)
-
-[INFO]   Project built successfully in 23s 375ms
+[INFO]   Waiting for emulator to become ready...
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is not booted yet; checking again in 2000 ms
+[TRACE]  Emulator is booted, emitting booted event
+[INFO]   Emulator is booted
+[INFO]   SD card not required, skipping mount check
+[INFO]   Emulator ready!
+[INFO]   Installing apk: /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/Weather.apk
+[TRACE]  Checking if package manager service is started
+[TRACE]  Package manager has started
+[TRACE]  Executing: /Users/JarrodSmith/Library/android-sdk-macosx/platform-tools/adb -s 192.168.56.101:5555 install -r /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Weather/build/android/bin/Weather.apk

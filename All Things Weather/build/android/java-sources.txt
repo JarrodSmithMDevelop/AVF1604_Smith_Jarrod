@@ -1,0 +1,8 @@
+"/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/android/gen/android/support/v7/cardview/R.java"
+"/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/android/gen/com/JSDevelop/AllThingsWeather/AllThingsWeatherActivity.java"
+"/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/android/gen/com/JSDevelop/AllThingsWeather/AllThingsWeatherAppInfo.java"
+"/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/android/gen/com/JSDevelop/AllThingsWeather/AllThingsWeatherApplication.java"
+"/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/android/gen/com/JSDevelop/AllThingsWeather/AssetCryptImpl.java"
+"/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/android/gen/com/JSDevelop/AllThingsWeather/R.java"
+"/Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/All Things Weather/build/android/gen/ti/modules/titanium/ui/R.java"
