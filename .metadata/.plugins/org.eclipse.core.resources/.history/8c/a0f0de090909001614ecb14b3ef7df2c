@@ -1,0 +1,9 @@
+//Finds the geolocation of the device
+
+var geoData = function(){
+	console.log("Inside the geo function!");	
+	
+	
+};
+
+exports.geoData = geoData;

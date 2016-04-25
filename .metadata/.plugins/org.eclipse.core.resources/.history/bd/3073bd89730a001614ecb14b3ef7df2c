@@ -1,0 +1,15 @@
+
+
+var apiPull = function(lat,lng){
+	console.log("Inside the apiPull function!");
+	console.log("This is your latitude " + lat + " and longitude " + lng);
+	
+var bingContainer = new Bing.BingSearchContainer( new Uri("https://api.datamarket.azure.com/Bing/Search/")); 
+// Replace this value with your account key. 
+var accountKey = "AjMoRILMosKFnI0DFT7si_f7Rh7_oxmzTzvxENWdoTmMAIPLBEPbTUHtZ066QpEM"; 
+// Configures bingContainer to use your credentials. 
+bingContainer.Credentials = new NetworkCredential(accountKey, accountKey);
+ 
+};
+
+exports.apiPull = apiPull;

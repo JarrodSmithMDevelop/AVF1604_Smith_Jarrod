@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
 liveview.enable=true
 liveview\:All\ Things\ Weather=true
+liveview\:Search=true
 liveview\:Weather=true
+liveview\:memories=true

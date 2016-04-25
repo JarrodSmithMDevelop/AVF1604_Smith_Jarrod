@@ -1,0 +1,17 @@
+
+
+var apiPull = function(lat,lng){
+	console.log("Inside the apiPull function!");
+	console.log("This is your latitude " + lat + " and longitude " + lng);
+	
+	var map = ('ti.map');
+	var mapView = Map.createView({
+		mapType: map.NORMAL_TYPE,
+		region: {latitude: lat, longitude: lng,
+				 latitudeDelta:0.01, longitudeDelta: 0.01},
+		userLocation: true,
+		});	
+ 
+};
+
+exports.apiPull = apiPull;

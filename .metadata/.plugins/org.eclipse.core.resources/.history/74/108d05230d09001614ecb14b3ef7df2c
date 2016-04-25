@@ -1,0 +1,9 @@
+
+
+var apiPull = function(lat,lng){
+	console.log("Inside the apiPull function!");
+	console.log("This is your latitude " + lat + " and longitude " + lng);
+	
+};
+
+exports.apiPull = apiPull;
