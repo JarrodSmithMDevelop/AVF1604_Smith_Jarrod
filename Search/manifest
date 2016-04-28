@@ -1,8 +1,8 @@
-#appname: memories
-#publisher: JarrodSmith
-#url: 
-#image: appicon.png
-#appid: com.JSMDevelop
-#desc: undefined
-#type: ipad
-#guid: a8e383c6-6ca8-47e7-9666-ffd23bbef37e
+#appname:memories
+#publisher:JarrodSmith
+#url:undefined
+#image:appicon.png
+#appid:com.JSMDevelop.places
+#desc:undefined
+#type:ipad
+#guid:a8e383c6-6ca8-47e7-9666-ffd23bbef37e

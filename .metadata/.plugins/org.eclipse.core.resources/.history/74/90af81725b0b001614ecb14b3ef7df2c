@@ -1,0 +1,31 @@
+
+
+var apiPull = function(lat,lng){
+	console.log("Inside the apiPull function!");
+	console.log("This is your latitude " + lat + " and longitude " + lng);
+    var placeType = "pizza";
+	var url = "https://api.foursquare.com/v2/venues/search?ll=" + lat + lng + "&client_id=FKWILI3GPBXPV3EECPRN0TS135TAXV01WMLQTQA33EJ3NYXV&client_secret=OBGWMUKAPAQZVPIQMZY2J5TIC1O5PUR0H3II44IVJ5HAPOFS&v=20160425&q=" + queryItem  ;
+console.log(url);
+
+if (Ti.Network.online == true) {
+     var getData = Ti.Network.createHTTPClient();
+     getData.onload = function(url){
+          console.log(getData);  //this is the raw data-string returned from the URL request
+          var json = JSON.parse(this.responseText);  //convert the string to JS object notation
+          console.log(json);
+          
+      };
+ 
+     getData.open("GET", url);
+     getData.send();
+     
+    
+}else{
+     alert("Network currently unavailable.");
+   };
+
+
+  
+};
+
+exports.apiPull = apiPull;

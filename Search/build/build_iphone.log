@@ -1,5 +1,5 @@
 
-4/24/2016, 6:38:34 PM
+4/27/2016, 8:44:54 PM
 
 Operating System
   Name                        = Mac OS X
@@ -21,14 +21,8 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/JarrodSmith/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.2.0.GA --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search --target simulator --ios-version 9.3 --device-family universal --sim-type iphone --sim-version 9.1 --device-id 621EA089-C4A3-457B-A8CD-14C0299C1F57 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49452 --config-file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-1461541112515.json --no-banner --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search
+  /usr/local/bin/node /Users/JarrodSmith/.appcelerator/install/5.2.0/package/node_modules/titanium/lib/titanium.js build run --platform ios --log-level trace --sdk 5.2.0.GA --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search --target device --ios-version 9.3 --device-family universal --developer-name jsmithpfm@yahoo.com (V7K4R78R4E) --device-id b148947d764c654d0ef20b873cb383522b05a819 --pp-uuid cf21fb8b-14ef-4e7d-adab-c062c6a4627b --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49452 --config-file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-1461807891496.json --no-banner --project-dir /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search
 
-[TRACE]  [ioslib] Validating iOS Simulator UDID 621EA089-C4A3-457B-A8CD-14C0299C1F57
-[TRACE]  [ioslib] Found iOS Simulator UDID 621EA089-C4A3-457B-A8CD-14C0299C1F57
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
-[TRACE]  [ioslib]   UDID    = 621EA089-C4A3-457B-A8CD-14C0299C1F57
-[TRACE]  [ioslib]   iOS     = 9.1
-[TRACE]  [ioslib] Autoselected Xcode: 7.3
 [DEBUG]  Detecting modules in /Users/JarrodSmith/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: facebook 4.0.5 @ /Users/JarrodSmith/Library/Application Support/Titanium/modules/android/facebook/4.0.5
 [DEBUG]  Detected android module: facebook 5.0.0 @ /Users/JarrodSmith/Library/Application Support/Titanium/modules/android/facebook/5.0.0
@@ -56,25 +50,24 @@ Command
 [TRACE]  Snapshotting build directory
 [DEBUG]  Titanium SDK iOS directory: /Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/iphone
 [INFO]   Deploy type: development
-[INFO]   Building for target: simulator
+[INFO]   Building for target: device
 [INFO]   Building using iOS SDK: 9.3
-[INFO]   Building for iOS Simulator: iPhone 6
-[DEBUG]  UDID: 621EA089-C4A3-457B-A8CD-14C0299C1F57
-[DEBUG]  Simulator type: iphone
-[DEBUG]  Simulator version: 9.1
+[INFO]   Building for iOS device: b148947d764c654d0ef20b873cb383522b05a819
 [INFO]   Building for device family: universal
 [DEBUG]  Setting Xcode target to Debug
-[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Setting Xcode build OS to iphoneos
 [DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
 [DEBUG]  iOS WWDR certificate: installed
+[INFO]   iOS Development Certificate: jsmithpfm@yahoo.com (V7K4R78R4E)
 [INFO]   Minimum iOS version: 7.1
+[INFO]   Using default keychain
 [INFO]   Debugging disabled
 [INFO]   Profiler disabled
 [INFO]   Set to copy files instead of symlinking
 [INFO]   Initializing the build directory
-[TRACE]  offline build file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-9d59391bf3789b47dd13ec2b73ea73ac72d5f263.json
+[TRACE]  offline build file /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/build-92f88391b173f3adb4da4581a27d16706c990d17.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 752.548 sec ago
+[TRACE]  optimizing build, last build was 12002.705 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -102,8 +95,8 @@ Command
 [INFO]   Installing default LaunchScreen.storyboard
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/LaunchScreen.storyboard
 [INFO]   Creating debugger and profiler plists
-[DEBUG]  Skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/debugger.plist
-[DEBUG]  Skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/profiler.plist
+[DEBUG]  Skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/debugger.plist
+[DEBUG]  Skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/profiler.plist
 [INFO]   Analyzing Resources directory
 [INFO]   Analyzing platform files
 [INFO]   Analyzing module files
@@ -136,10 +129,10 @@ Command
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
 [INFO]   App thinning disabled, skipping asset image sets
 [DEBUG]  Copying resources
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/KS_nav_ui.png
-[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/Resources/KS_nav_ui.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/KS_nav_ui.png
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/KS_nav_views.png
-[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/Resources/KS_nav_views.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/KS_nav_ui.png
+[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/Resources/KS_nav_ui.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/KS_nav_views.png
+[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/Resources/KS_nav_views.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/KS_nav_views.png
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
 [DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/Resources/iphone/Default-568h@2x.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
@@ -160,42 +153,56 @@ Command
 [DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/Resources/iphone/Default@2x.png => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
-[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/Resources/api.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/api.js
-[DEBUG]  Overwriting /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/liveview.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/app.js
-[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/Resources/geo.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/geo.js
-[DEBUG]  Overwriting /Users/JarrodSmith/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10/ti.cloud.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/ti.cloud.js
+[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/Resources/api.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/api.js
+[DEBUG]  Overwriting /var/folders/zk/r7vy3c8503792qfczh43dhfw0000gn/T/liveview.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/app.js
+[DEBUG]  Overwriting /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/Resources/geo.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/geo.js
+[DEBUG]  Overwriting /Users/JarrodSmith/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.10/ti.cloud.js => /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/ti.cloud.js
 [INFO]   Writing app properties
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/_app_props_.json
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/_app_props_.json
 [DEBUG]  Using default application routing
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/Classes/ApplicationRouting.m
 [INFO]   Writing i18n files
 [DEBUG]  No i18n files to process
 [INFO]   Processing Titanium symbols
 [DEBUG]  Processing Titanium namespace resources
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/modules/ui/images/badge.png
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/modules/ui/images/closeButton.png
-[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/modules/ui/images/photoDefault.png
 [TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/Classes/defines.h
 [INFO]   Removing files
+[DEBUG]  Removing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.ipa
 [DEBUG]  Removing empty directories
+[INFO]   Optimizing .plist and .png files
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/Info.plist
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/modules/ui/images/photoDefault.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/LaunchScreen.storyboardc/Info.plist
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon29x29@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon29x29@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon29x29@3x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon29x29~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon40x40@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon40x40@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon40x40@3x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon40x40~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon60x60@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon60x60@3x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon76x76@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon76x76~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/AppIcon83.5x83.5@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/LaunchImage-700-568h@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/LaunchImage-700-Landscape@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/LaunchImage-700-Landscape~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/LaunchImage-700-Portrait@2x~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/LaunchImage-700-Portrait~ipad.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/LaunchImage-700@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/LaunchImage-800-667h@2x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/LaunchImage-800-Landscape-736h@3x.png
+[DEBUG]  Optimizing /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphoneos/memories.app/LaunchImage-800-Portrait-736h@3x.png
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 392ms
-[INFO]   Launching iOS Simulator
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
-[TRACE]  [ioslib]   UDID    = 621EA089-C4A3-457B-A8CD-14C0299C1F57
-[TRACE]  [ioslib]   iOS     = 9.1
-[TRACE]  [ioslib] Autoselected Xcode: 7.3
-[TRACE]  [ioslib] Removing old log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/621EA089-C4A3-457B-A8CD-14C0299C1F57/data/Containers/Data/Application/0B0CACFE-8D96-4670-901E-92874AC902B9/Documents/a8e383c6-6ca8-47e7-9666-ffd23bbef37e.log
-[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/JarrodSmith/Library/Logs/CoreSimulator/621EA089-C4A3-457B-A8CD-14C0299C1F57/system.log
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 621EA089-C4A3-457B-A8CD-14C0299C1F57
-[TRACE]  [ioslib] iPhone 6 Simulator was already shutdown
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 621EA089-C4A3-457B-A8CD-14C0299C1F57
-[TRACE]  [ioslib] iPhone 6 Simulator started
-[TRACE]  [ioslib] Running: osascript "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
-[TRACE]  [ioslib] iPhone 6 Simulator successfully focused
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 621EA089-C4A3-457B-A8CD-14C0299C1F57 /Users/JarrodSmith/GitHub/AVF1604_Smith_Jarrod/Search/build/iphone/build/Products/Debug-iphonesimulator/memories.app
-[TRACE]  [ioslib] App installed
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 621EA089-C4A3-457B-A8CD-14C0299C1F57 com.JSMDevelop
-[TRACE]  [ioslib] App launched
-[TRACE]  [ioslib] Found application log file: /Users/JarrodSmith/Library/Developer/CoreSimulator/Devices/621EA089-C4A3-457B-A8CD-14C0299C1F57/data/Containers/Data/Application/7C12F70A-3C22-4A4F-B3F1-1008095AA4DC/Documents/a8e383c6-6ca8-47e7-9666-ffd23bbef37e.log
-[TRACE]  [memories] assertion failed: 15E65 13B143: libxpc.dylib + 58126 [0F47719F-3076-3664-A64B-CEB6901B254D]: 0x7d
+[INFO]   Finished building the application in 3s 674ms
+[INFO]   Installing app on device: Jarrod's iPad
+[INFO]   App successfully installed on device: Jarrod's iPad

@@ -3,8 +3,8 @@
 var apiPull = function(lat,lng){
 	console.log("Inside the apiPull function!");
 	console.log("This is your latitude " + lat + " and longitude " + lng);
-
-	var url = "https://api.datamarket.azure.com/Bing/Search/" ;
+    var queryItem = "pizza";
+	var url = "https://api.foursquare.com/v2/venues/search?ll=" + lat + "," + lng + "&client_id=FKWILI3GPBXPV3EECPRN0TS135TAXV01WMLQTQA33EJ3NYXV&client_secret=OBGWMUKAPAQZVPIQMZY2J5TIC1O5PUR0H3II44IVJ5HAPOFS&v=20160425&q=" + queryItem  ;
 console.log(url);
 
 if (Ti.Network.online == true) {
@@ -12,10 +12,21 @@ if (Ti.Network.online == true) {
      getData.onload = function(url){
           console.log(getData);  //this is the raw data-string returned from the URL request
           var json = JSON.parse(this.responseText);  //convert the string to JS object notation
-          console.log(json);
-          
-      };
- 
+          //console.log(json);
+          	var i = 0;
+          	while (i < 100){
+		    	var places = [];
+		          	var venue = {
+		          		name: json.response.venues[i].name,
+		          		phoneNumber: json.response.venues[i].contact.formattedPhone,
+		          		city: json.response.venues[i].location.city,
+		          		};
+		        venue.push = venues;
+		    };
+          console.log(places[0].venue.city);	
+          	};
+           
+   
      getData.open("GET", url);
      getData.send();
      

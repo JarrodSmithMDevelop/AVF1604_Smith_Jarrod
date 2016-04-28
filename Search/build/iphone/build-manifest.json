@@ -1,9 +1,9 @@
 {
 	"files": {
 		"Info.plist": {
-			"hash": "7b618f6c76c58313714114615bdeed08",
+			"hash": "8c15900c817f550b72c2a4918ad7ef1c",
 			"mtime": 0,
-			"size": 2161
+			"size": 2175
 		},
 		"5.2.0.GA/iphone/libTiCore.a": {
 			"hash": null,
@@ -3186,20 +3186,22 @@
 			"size": 3126
 		}
 	},
-	"target": "simulator",
+	"target": "device",
 	"deployType": "development",
 	"sdkVersion": "5.2.0.GA",
 	"iosSdkVersion": "9.3",
 	"deviceFamily": "universal",
 	"iosSdkPath": "/Users/JarrodSmith/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/iphone",
 	"tiCoreHash": "5710cda7b179a3c8391cc94011e308de",
+	"developerName": "jsmithpfm@yahoo.com (V7K4R78R4E)",
 	"modulesHash": "7fb655db1d51a26b74a2778ab4a02a6b",
 	"modulesNativeHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"gitHash": "384775e",
+	"ppUuid": "cf21fb8b-14ef-4e7d-adab-c062c6a4627b",
 	"forceCopy": false,
 	"forceCopyAll": false,
 	"name": "memories",
-	"id": "com.JSMDevelop",
+	"id": "com.JSMDevelop.places",
 	"analytics": true,
 	"publisher": "JarrodSmith",
 	"url": "",
@@ -3208,7 +3210,7 @@
 	"copyright": "2016 by JarrodSmith",
 	"guid": "a8e383c6-6ca8-47e7-9666-ffd23bbef37e",
 	"useAppThinning": false,
-	"skipJSMinification": true,
+	"skipJSMinification": false,
 	"encryptJS": false,
 	"useJSCore": false,
 	"runOnMainThread": false,
